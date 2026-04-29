@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
       Your input helps create a shared space for discussion between science and public experience.
       </p>
       <div class="form-intro-image">
-        <img src="/img/form-intro.svg" alt="Exhibition illustration">
+        <img src="{{ "img/form-intro.svg" | relURL }}" alt="Exhibition illustration">
       </div>
     </div>
   </div>

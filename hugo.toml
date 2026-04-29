@@ -1,7 +1,9 @@
-baseURL = "https://felaberecochea.github.io/Fop/"
+baseURL = "https://felaberecochea.github.io/fop/"
 title = "Fascination of Plants"
 languageCode = "en-us"
 theme = "plants-theme"
+relativeURLs = true
+canonifyURLs = true
 
 [taxonomies]
 category = ""
