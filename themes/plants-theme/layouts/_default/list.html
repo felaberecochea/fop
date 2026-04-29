@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{ .Title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 <body>
-  <h1>{{ .Title }}</h1>
+  <header class="site-header">
+  {{ partial "header.html" . }}
+  </header>
   {{ .Content }}
 </body>
 </html>

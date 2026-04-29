@@ -1,32 +1,30 @@
 /* =========================
    FONTS
 ========================= */
-
-/* RePublic */
 @font-face {
   font-family: 'RePublic';
-  src: url('/fonts/RePublic-Regular.woff2') format('woff2');
+  src: url('../fonts/RePublic-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RePublic';
-  src: url('/fonts/RePublic-Bold.woff2') format('woff2');
+  src: url('../fonts/RePublic-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'RePublic';
-  src: url('/fonts/RePublic-Italic.woff2') format('woff2');
+  src: url('../fonts/RePublic-Italic.woff2') format('woff2');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'RePublic';
-  src: url('/fonts/RePublic-BoldItalic.woff2') format('woff2');
+  src: url('../fonts/RePublic-BoldItalic.woff2') format('woff2');
   font-weight: 700;
   font-style: italic;
 }
@@ -34,21 +32,22 @@
 /* Open Sans */
 @font-face {
   font-family: 'Open Sans';
-  src: url('/fonts/OpenSans-Regular.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Open Sans';
-  src: url('/fonts/OpenSans-Bold.woff2') format('woff2');
+  src: url('../fonts/OpenSans-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
 }
+
 @font-face {
   font-family: 'Open Sans';
-  src: url('/fonts/OpenSans-ExtraBold.woff2') format('woff2');
-  font-weight: 1000;
+  src: url('../fonts/OpenSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
   font-style: normal;
 }
 
@@ -63,6 +62,7 @@ body {
   background-size: 400px;
   margin: 0;
   color: #5a623b;
+  font-family: 'RePublic', sans-serif;
 }
 
 /* Typography defaults */
@@ -74,7 +74,62 @@ p {
 h1, h2, h3 {
   font-family: 'Open Sans', serif;
 }
+.intro-text {
+  max-width: 700px;
+  margin: 20px auto;
+  opacity: 1;
+  animation: introFadeIn 8s ease forwards;
+}
 
+.intro-text p:first-of-type {
+  text-align: left;
+  font-size: 1.15rem;
+}
+
+.intro-text p:nth-of-type(2),
+.intro-text p:nth-of-type(3) {
+  text-align: right;
+  font-size: 1.15rem;
+}
+
+@keyframes introFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Title */
+.site-title {
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.site-title img {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+  opacity: 0;
+  animation: titleFadeIn 5s ease forwards;
+}
+
+@keyframes titleFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /* =========================
    LAYOUT
@@ -108,20 +163,6 @@ h1, h2, h3 {
   margin-bottom: 1rem;
 }
 
-/* Title */
-.site-title {
-  text-align: center;
-  margin-bottom: 0.4rem;
-}
-
-.site-title a {
-  text-decoration: none;
-  font-family: 'Open Sans', serif;
-  font-weight: 1000;
-  color: #5A623B;
-  text-transform: uppercase;
-  letter-spacing: 0.35em;
-}
 
 /* Subtitle */
 .site-subtitle {
@@ -137,10 +178,17 @@ h1, h2, h3 {
 /* =========================
    LANGUAGE SWITCHER
 ========================= */
-
 .language-switcher {
   display: flex;
   gap: 0.2rem;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 20px 0 20px;
 }
 
 .language-switcher a {

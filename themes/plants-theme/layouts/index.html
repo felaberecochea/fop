@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 
@@ -13,10 +12,24 @@
   </header>
   <main class="site-content">
     {{ .Content }}
-    <div>
+    <div class="intro-text">
+      {{ if eq .Site.Language.Lang "nl" }}
+      <p>
+        Fascination of Plants Day wordt wereldwijd tweejaarlijks gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze passie voor planten.
+        Aan de <b>Universiteit Utrecht</b> vieren we deze dag sinds 2024, en we blijven dit doen in 2026.
+      </p>
+      <p>
+        Bekijk hieronder beide tentoonstellingen.
+      </p>
+      <p>
+        <b>Veel plezier!</b>
+      </p>
+
+      {{ else }}
+
       <p> 
         Fascination of Plants Day is celebrated worldwide biannually on the 18th of May. We take this day to share our research and our excitement for plants.
-        At<b> Utrecht University</b> we began celebrating this day on 2024, and we continue to do so on 2026.
+        At <b>Utrecht University</b> we began celebrating this day on 2024, and we continue to do so on 2026.
       </p>
       <p>
         See both of these exhibitions below.
@@ -24,8 +37,10 @@
       <p>
         <b>Enjoy!</b>
       </p>
+      {{ end }}
     </div>
-     <div class="exhibition-grid">
+    
+    <div class="exhibition-grid">
       <a class="exhibition-card" href="{{ "exhibitions/2026/" | relLangURL }}">
         <div class="card-overlay"></div>
         <img src="{{ "img/exhibition-2026.svg" | relURL }}" alt="Exhibition 2026">

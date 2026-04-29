@@ -2,76 +2,76 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://felaberecochea.github.io/fop/nl/closing-event/</loc>
+    <loc>http://localhost:1313/fop/nl/closing-event/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/closing-event/"
+                href="http://localhost:1313/fop/closing-event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/closing-event/"
+                href="http://localhost:1313/fop/nl/closing-event/"
                 />
   </url><url>
-    <loc>https://felaberecochea.github.io/fop/nl/form/</loc>
+    <loc>http://localhost:1313/fop/nl/form/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/form/"
+                href="http://localhost:1313/fop/form/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/form/"
+                href="http://localhost:1313/fop/nl/form/"
                 />
   </url><url>
-    <loc>https://felaberecochea.github.io/fop/nl/exhibitions/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/exhibitions/"
+                href="http://localhost:1313/fop/exhibitions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/exhibitions/"
+                href="http://localhost:1313/fop/nl/exhibitions/"
                 />
   </url><url>
-    <loc>https://felaberecochea.github.io/fop/nl/</loc>
+    <loc>http://localhost:1313/fop/nl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/"
+                href="http://localhost:1313/fop/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/"
+                href="http://localhost:1313/fop/nl/"
                 />
   </url><url>
-    <loc>https://felaberecochea.github.io/fop/nl/exhibitions/2024/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/2024/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/exhibitions/2024/"
+                href="http://localhost:1313/fop/exhibitions/2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/exhibitions/2024/"
+                href="http://localhost:1313/fop/nl/exhibitions/2024/"
                 />
   </url><url>
-    <loc>https://felaberecochea.github.io/fop/nl/exhibitions/2026/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/2026/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en-us"
-                href="https://felaberecochea.github.io/fop/exhibitions/2026/"
+                href="http://localhost:1313/fop/exhibitions/2026/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="https://felaberecochea.github.io/fop/nl/exhibitions/2026/"
+                href="http://localhost:1313/fop/nl/exhibitions/2026/"
                 />
   </url>
 </urlset>
