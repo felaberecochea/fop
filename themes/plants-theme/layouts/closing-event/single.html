@@ -14,15 +14,12 @@
   </ul>
 
   <p>
-    <a href="/posters/closing-event/flyer.pdf" target="_blank">
+    <a href="{{ if eq .Language.Lang "nl" }}{{ "posters/closing-event/flyer-nl.pdf" | relURL }}{{ else }}{{ "posters/closing-event/flyer-en.pdf" | relURL }}{{ end }}" target="_blank">
       {{ i18n "ce_download_flyer" }}
     </a>
   </p>
-
   <hr>
-
   <p>{{ i18n "ce_participation_text" }}</p>
-
   <p>
     <a href="/form/">{{ i18n "ce_participate" }}</a>
   </p>

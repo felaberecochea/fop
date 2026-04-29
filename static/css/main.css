@@ -57,7 +57,7 @@
 
 body {
   background-color: #F5F5EC;
-  background-image: url('/img/background-plants.svg');
+  background-image: url('../img/background-plants.svg');
   background-repeat: repeat;
   background-size: 400px;
   margin: 0;
@@ -136,8 +136,8 @@ h1, h2, h3 {
 ========================= */
 
 .site-content {
-  max-width: 650px;
-  margin: 0 auto;
+  width:auto;
+  margin: 30 auto;
   padding: 1rem;
 }
 
@@ -452,11 +452,12 @@ h1, h2, h3 {
 
 
 /* =========================
-   FORM
+   FORM (SIMPLE + CONSISTENT)
 ========================= */
-
 .form-section {
-  margin-top: 2rem;
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
 }
 
 .form-section form {
@@ -472,55 +473,63 @@ h1, h2, h3 {
 
 .form-section input,
 .form-section textarea {
+  width: 100%;
   padding: 0.6rem;
   border: 1px solid #D6D6CA;
   border-radius: 4px;
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 .form-section button {
   background-color: #5A623B;
   color: #fff;
   border: none;
-  padding: 0.7rem;
+  padding: 0.7rem 1.2rem;
   font-family: 'RePublic', serif;
   cursor: pointer;
   border-radius: 4px;
 }
 
-.form-section button:hover {
-  opacity: 0.9;
-}
-
+/* disclaimer */
 .form-disclaimer {
+  margin-top: 2rem;
   font-size: 0.8rem;
   line-height: 1.5;
   color: #5a623b;
-  margin-top: 1rem;
-  padding: 0.8rem;
   border-top: 1px solid #D6D6CA;
-}
-
-.form-disclaimer p {
-  margin: 0.5rem 0;
+  padding-top: 1rem;
   font-family: 'Open Sans', sans-serif;
 }
 
 .form-intro {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
   display: flex;
+  align-items: flex-start; /* top aligned */
   gap: 2rem;
-  align-items: stretch; /* important: forces equal height */
-  margin-bottom: 2rem;
 }
 
 .form-intro-text {
   flex: 1;
 }
 
+.form-intro-text h2 {
+  margin-top: 0;
+  font-family: 'Open Sans', serif;
+}
+
+.form-intro-text p {
+  font-family: 'RePublic', sans-serif;
+  line-height: 1.6;
+}
+
 .form-intro-image {
   flex: 1;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .form-intro-image img {
@@ -529,30 +538,12 @@ h1, h2, h3 {
   display: block;
 }
 
+/* mobile */
 @media (max-width: 768px) {
-
-  .intro-row {
-    display: flex;
-    gap: 1rem;
-    align-items: flex-start;
-  }
-
-  .intro-lead {
-    flex: 2;
-  }
-
-  .form-intro-image {
-    flex: 1;
-    display: flex;
-  }
-
-  .form-intro-image img {
-    width: 100%;
-    height: auto;   /* no cropping */
-    display: block;
+  .form-intro {
+    flex-direction: column;
   }
 }
-
 
 /* =========================
    RESPONSIVE (safe)

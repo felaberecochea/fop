@@ -1,68 +1,51 @@
-<!DOCTYPE html>
-<html lang="{{ .Language.Lang }}">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
-</head>
-
-<body>
-
-<header class="site-header">
-  {{ partial "header.html" . }}
-</header>
+{{ define "main" }}
 
 <main class="site-content">
 
-  {{ .Content }}
   <div class="form-intro">
-  <div class="form-intro-text">
-    <h2>What do you think?</h2>
-    <div class="intro-row">
+    <div class="form-intro-text">
+      <h2>What do you think?</h2>
+
       <p class="intro-lead">
         The posters in this exhibition present ongoing research on plant biology and environmental adaptation.
         Each project reflects a different perspective on how plants respond to changing conditions.
       </p>
+
       <p>
-      We invite you to respond with your own interpretation, reflection, or question.
-      Your input helps create a shared space for discussion between science and public experience.
+        We invite you to respond with your own interpretation, reflection, or question.
+        Your input helps create a shared space for discussion between science and public experience.
       </p>
-      <div class="form-intro-image">
-        <img src="{{ "img/form-intro.svg" | relURL }}" alt="Exhibition illustration">
-      </div>
     </div>
-  </div>
+
+    <div class="form-intro-image">
+      <img src="{{ "img/form-intro.svg" | relURL }}" alt="Exhibition illustration">
+    </div>
   </div>
 
   <section class="form-section">
     <form action="https://formspree.io/f/mdaygneg" method="POST">
-        <label>{{ i18n "name" }}</label>
-        <input type="text" name="name" required>
-        <label>{{ i18n "email" }}</label>
-        <input type="email" name="email" required>
-        <label>{{ i18n "answer" }}</label>
-            <textarea name="answer" rows="4" required></textarea>
-        <button type="submit">{{ i18n "submit" }}</button>
+      <label>{{ i18n "name" }}</label>
+      <input type="text" name="name" required>
+
+      <label>{{ i18n "email" }}</label>
+      <input type="email" name="email" required>
+
+      <label>{{ i18n "answer" }}</label>
+      <textarea name="answer" rows="5" required></textarea>
+
+      <button type="submit">{{ i18n "submit" }}</button>
     </form>
+
+    <div class="form-disclaimer">
+      <p>
+        By submitting your email address, you agree to receive a one-time reminder about the closing event.
+      </p>
+      <p>
+        Your data will only be used for this purpose and will not be stored beyond the scope of this project.
+      </p>
+    </div>
   </section>
-<div class="form-disclaimer">
-  <p>
-    By submitting your email address, you agree to receive a one-time reminder about the closing event.
-  </p>
 
-  <p>
-    Your name, email, and response will only be used for this purpose. 
-    Answers may be shared anonymously during the event.
-  </p>
-
-  <p>
-    No data will be used for any other purpose and will not be stored beyond the scope of this project.
-  </p>
-</div>
 </main>
 
-{{ partial "footer.html" . }}
-
-</body>
-</html>
+{{ end }}
