@@ -1,0 +1,28 @@
+<header class="site-header">
+
+  <div class="header-top">
+
+    <!-- Language switch -->
+    <div class="language-switcher">
+      {{ range .AllTranslations }}
+        {{ $isCurrent := eq .Lang $.Language.Lang }}
+        <a href="{{ .RelPermalink }}" class="{{ if $isCurrent }}current{{ end }}">
+          {{ .Language.Lang | upper }}
+        </a>
+      {{ end }}
+    </div>
+
+  </div>
+  <h1 class="site-title">
+    <a href="{{ "/" | relLangURL }}">
+      Fascination of Plants
+    </a>
+  </h1>
+
+  {{ if not .IsHome }}
+  <h2 class="site-subtitle">
+    {{ .Title }}
+  </h2>
+{{ end }}
+
+</header>

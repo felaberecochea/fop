@@ -1,0 +1,8 @@
+baseURL = "https://felaberecochea.github.io/UU-fascination-of-plants/"
+title = "Fascination of Plants"
+languageCode = "en-us"
+theme = "plants-theme"
+
+[taxonomies]
+category = ""
+tag = ""

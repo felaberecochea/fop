@@ -1,0 +1,17 @@
+baseURL = "https://felaberecochea.github.io/UU-fascination-of-plants/"
+title = "Fascination of Plants"
+theme = "plants-theme"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+    contentDir = "content"
+
+  [languages.nl]
+    weight = 2
+    languageName = "Nederlands"
+    contentDir = "content"
