@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ .Title }}</title>
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 
 <body>
@@ -28,16 +28,16 @@
      <div class="exhibition-grid">
       <a class="exhibition-card" href="{{ "exhibitions/2026/" | relLangURL }}">
         <div class="card-overlay"></div>
-        <img src="/img/exhibition-2026.svg" alt="Exhibition 2026">
+        <img src="{{ "img/exhibition-2026.svg" | relURL }}" alt="Exhibition 2026">
         <div class="card-title">{{ i18n "exhibition2026" }}</div>
       </a>
       <a class="exhibition-card" href="{{ "exhibitions/2024/" | relLangURL }}">
         <div class="card-overlay"></div>
-        <img src="/img/exhibition-2024.svg" alt="Exhibition 2024">
+        <img src="{{ "img/exhibition-2024.svg" | relURL }}" alt="Exhibition 2024">
         <div class="card-title">{{ i18n "exhibition2024" }}</div>
       </a>
       <a class="save-the-date" href="{{ "/closing-event/" | relLangURL }}">
-        <img src="/img/save-the-date.svg" alt="Save the date closing event">
+        <img src="{{ "img/save-the-date.svg" | relURL }}" alt="Save the date closing event">
       </a>
     </div>
   </main>
