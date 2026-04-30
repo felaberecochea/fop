@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ .Language.Lang }}">
+<html lang="{{ .Site.Language.Lang }}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="{{ "css/main.css" | relURL }}">
 </head>
 
@@ -10,11 +10,23 @@
 
   {{ partial "header.html" . }}
 
-  <main class="site-content">
-    {{ block "main" . }}{{ end }}
-  </main>
+<main class="site-content">
+  {{ block "main" . }}{{ end }}
+</main>
 
   {{ partial "footer.html" . }}
 
+   <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(".menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+
+    if (!btn || !sidebar) return;
+
+    btn.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+    });
+  });
+  </script>
 </body>
 </html>

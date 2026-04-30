@@ -1,86 +1,156 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
-	<meta name="generator" content="Hugo 0.159.0"><script src="/fop/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=fop/livereload" data-no-instant defer></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/main.css">
+	<meta name="generator" content="Hugo 0.159.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 
 <body>
-  <header class="site-header">
+
   <header class="site-header">
 
-  <div class="header-top">
+  <button class="menu-toggle">☰</button>
 
+<nav id="sidebar" class="sidebar">
+  <ul>
     
-    <div class="language-switcher">
-      
-        
-        <a href="../nl/" class="current">
-          NL
-        </a>
-      
-        
-        <a href="../" class="">
-          EN
-        </a>
-      
-    </div>
+      <li>
 
-  </div>
+        
+          <a href="/nl/">Home</a>
+        
+
+        
+
+      </li>
+    
+      <li>
+
+        
+          <span>Exhibitions</span>
+        
+
+        
+          <ul>
+            
+              <li>
+                <a href="/nl/exhibitions/2024/">2024</a>
+              </li>
+            
+              <li>
+                <a href="/nl/exhibitions/2026/">2026</a>
+              </li>
+            
+          </ul>
+        
+
+      </li>
+    
+      <li>
+
+        
+          <span>Current Exhibition</span>
+        
+
+        
+          <ul>
+            
+              <li>
+                <a href="/nl/closing-event/">Closing Event</a>
+              </li>
+            
+              <li>
+                <a href="/nl/form/">Form</a>
+              </li>
+            
+          </ul>
+        
+
+      </li>
+    
+      <li>
+
+        
+          <span>About</span>
+        
+
+        
+          <ul>
+            
+              <li>
+                <a href="/nl/acknowledgements/">Acknowledgements</a>
+              </li>
+            
+              <li>
+                <a href="/nl/contact/">Contact</a>
+              </li>
+            
+          </ul>
+        
+
+      </li>
+    
+  </ul>
+</nav>
+
+<div class="language-switcher">
+
+  <a href="/en" class="lang-btn ">
+    EN
+  </a>
+
+  <a href="/nl" class="lang-btn active">
+    NL
+  </a>
+
+</div>
+
   <h1 class="site-title">
-    <a href="../nl/">
-      <img src="../img/title.svg" alt="Fascination of Plants">
+    <a href="/nl/">
+      <img src="/img/title.svg">
     </a>
   </h1>
 
+</header>
+
+<main class="site-content">
   
 
-</header>
-  </header>
-  <main class="site-content">
-    
-    <div class="intro-text">
-      
-      <p>
-        Fascination of Plants Day wordt wereldwijd tweejaarlijks gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze passie voor planten.
-        Aan de <b>Universiteit Utrecht</b> vieren we deze dag sinds 2024, en we blijven dit doen in 2026.
-      </p>
-      <p>
-        Bekijk hieronder beide tentoonstellingen.
-      </p>
-      <p>
-        <b>Veel plezier!</b>
-      </p>
+<main class="site-content">
+<div class="intro-text">
+  <p>Fascination of Plants Day wordt wereldwijd tweejaarlijks gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze passie voor planten. Aan de Universiteit Utrecht vieren we deze dag sinds 2024, en we blijven dit doen in 2026. Bekijk hieronder beide tentoonstellingen. Veel plezier!</p>
+</div>
 
-      
-    </div>
-    
-    <div class="exhibition-grid">
-      <a class="exhibition-card" href="../nl/exhibitions/2026/">
-        <div class="card-overlay"></div>
-        <img src="../img/exhibition-2026.svg" alt="Exhibition 2026">
-        <div class="card-title">Tentoonstelling 2026</div>
-      </a>
-      <a class="exhibition-card" href="../nl/exhibitions/2024/">
-        <div class="card-overlay"></div>
-        <img src="../img/exhibition-2024.svg" alt="Exhibition 2024">
-        <div class="card-title">Tentoonstelling 2024</div>
-      </a>
-      <a class="save-the-date" href="../nl/closing-event/">
-        <img src="../img/save-the-date.svg" alt="Save the date closing event">
-      </a>
-    </div>
-  </main>
+  <div class="exhibition-grid">
+    <a class="exhibition-card" href="/nl/exhibitions/2026/">
+      <img src="/img/exhibition-2026.svg">
+      <div class="card-title">2026</div>
+    </a>
+
+    <a class="exhibition-card" href="/nl/exhibitions/2024/">
+      <img src="/img/exhibition-2024.svg">
+      <div class="card-title">2024</div>
+    </a>
+
+    <a class="save-the-date" href="/nl/closing-event/">
+      <img src="/img/save-the-date.svg">
+    </a>
+  </div>
+
+</main>
+
+
+</main>
 
   <footer class="site-footer">
 
   <div class="footer-logos">
-    <img src="../logos/logo1.svg" alt="Logo 1">
-    <img src="../logos/logo2.svg" alt="Logo 2">
-    <img src="../logos/logo3.svg" alt="Logo 3">
-    <img src="../logos/logo4.svg" alt="Logo 4">   
+    <img src="/logos/logo1.svg" alt="Logo 1">
+    <img src="/logos/logo2.svg" alt="Logo 2">
+    <img src="/logos/logo3.svg" alt="Logo 3">
+    <img src="/logos/logo4.svg" alt="Logo 4">
   </div>
 
   <p class="footer-text">
@@ -88,5 +158,18 @@
   </p>
 
 </footer>
+
+   <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const btn = document.querySelector(".menu-toggle");
+    const sidebar = document.getElementById("sidebar");
+
+    if (!btn || !sidebar) return;
+
+    btn.addEventListener("click", function () {
+      sidebar.classList.toggle("open");
+    });
+  });
+  </script>
 </body>
 </html>

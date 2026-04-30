@@ -1,4 +1,4 @@
-baseURL = "https://felaberecochea.github.io/Fop/"
+baseURL = "http://localhost:1313/"
 title = "Fascination of Plants"
 theme = "plants-theme"
 
@@ -6,12 +6,34 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 
 [languages]
-  [languages.en]
-    weight = 1
-    languageName = "English"
-    contentDir = "content"
 
-  [languages.nl]
-    weight = 2
-    languageName = "Nederlands"
-    contentDir = "content"
+[languages.en]
+languageName = "English"
+weight = 1
+contentDir = "content/en"
+
+[languages.nl]
+languageName = "Nederlands"
+weight = 2
+contentDir = "content/nl"
+
+[menu]
+[[menu.main]]
+name = "Home"
+pageRef = "_index"
+weight = 1
+
+[[menu.main]]
+name = "Exhibitions"
+pageRef = "exhibitions"
+weight = 2
+
+[[menu.main]]
+name = "Closing Event"
+pageRef = "closing-event"
+weight = 3
+
+[[menu.main]]
+name = "Form"
+pageRef = "form"
+weight = 4

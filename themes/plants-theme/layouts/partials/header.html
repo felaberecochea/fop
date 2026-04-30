@@ -1,28 +1,45 @@
 <header class="site-header">
 
-  <div class="header-top">
+  <button class="menu-toggle">☰</button>
 
-    <!-- Language switch -->
-    <div class="language-switcher">
-      {{ range .AllTranslations }}
-        {{ $isCurrent := eq .Lang $.Language.Lang }}
-        <a href="{{ .RelPermalink }}" class="{{ if $isCurrent }}current{{ end }}">
-          {{ .Language.Lang | upper }}
-        </a>
-      {{ end }}
-    </div>
+<nav id="sidebar" class="sidebar">
+  <ul>
+    {{ range .Site.Menus.main }}
+      <li>
 
-  </div>
+        {{ if .Page }}
+          <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+        {{ else }}
+          <span>{{ .Name }}</span>
+        {{ end }}
+
+        {{ if .HasChildren }}
+          <ul>
+            {{ range .Children }}
+              <li>
+                <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        {{ end }}
+
+      </li>
+    {{ end }}
+  </ul>
+</nav>
+
+<div class="language-switcher">
+{{ range .Site.Languages }}
+  <a href="{{ .Lang | relURL }}" class="lang-btn {{ if eq $.Lang .Lang }}active{{ end }}">
+    {{ .Lang | upper }}
+  </a>
+{{ end }}
+</div>
+
   <h1 class="site-title">
-    <a href="{{ "/" | relLangURL }}">
-      <img src="{{ "img/title.svg" | relURL }}" alt="Fascination of Plants">
+    <a href="{{ .Site.Home.RelPermalink }}">
+      <img src="{{ "img/title.svg" | relURL }}">
     </a>
   </h1>
-
-  {{ if not .IsHome }}
-  <h2 class="site-subtitle">
-    {{ .Title }}
-  </h2>
-{{ end }}
 
 </header>

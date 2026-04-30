@@ -69,6 +69,11 @@ body {
 p {
   font-family: 'RePublic', sans-serif;
   line-height: 1.6;
+  font-size: 1.15rem;
+}
+
+li{
+  font-size: 1.15rem;
 }
 
 h1, h2, h3 {
@@ -83,13 +88,11 @@ h1, h2, h3 {
 
 .intro-text p:first-of-type {
   text-align: left;
-  font-size: 1.15rem;
 }
 
 .intro-text p:nth-of-type(2),
 .intro-text p:nth-of-type(3) {
   text-align: right;
-  font-size: 1.15rem;
 }
 
 @keyframes introFadeIn {
@@ -151,6 +154,69 @@ h1, h2, h3 {
   text-align: center;
 }
 
+/* HAMBURGER */
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  z-index: 1001;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+
+  width: 280px;
+  height: 100vh;
+
+  background: #47553a;
+  z-index: 99999;
+
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+
+  padding: 2rem;
+  box-shadow: -6px 0 20px rgba(0,0,0,0.15);
+}
+
+.sidebar.open {
+  transform: translateX(0);
+}
+
+/* MENU LIST */
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-family: 'RePublic', sans-serif;
+  color: #f0f0e7;
+  font-size: 1rem;
+}
+.sidebar span{
+  color: #f0f0e7;
+}
+
+/* SUBMENU */
+.sidebar ul ul {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  font-size: 0.95rem;
+}
+
 
 /* =========================
    HEADER
@@ -163,7 +229,6 @@ h1, h2, h3 {
   margin-bottom: 1rem;
 }
 
-
 /* Subtitle */
 .site-subtitle {
   text-align: center;
@@ -173,7 +238,6 @@ h1, h2, h3 {
   color: #1D1D1B;
   margin-bottom: 2rem;
 }
-
 
 /* =========================
    LANGUAGE SWITCHER
@@ -193,22 +257,22 @@ h1, h2, h3 {
 
 .language-switcher a {
   text-decoration: none;
-  font-family: 'Open Sans', serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  padding: 0.2rem 0.4rem;
+  padding: 0.2rem 0.5rem;
   border-radius: 4px;
   transition: 0.2s;
-}
-
-.language-switcher a.current {
-  background-color: #5A623B;
-  color: #fff;
-}
-
-.language-switcher a:not(.current) {
   color: #5A623B;
 }
 
+.language-switcher a.active {
+  background-color: #5A623B;
+  color: #f0f0e7;
+}
+
+.language-switcher a:not(.active) {
+  color: #5A623B;
+}
 
 /* =========================
    NAVIGATION
@@ -243,7 +307,6 @@ h1, h2, h3 {
   background-color: #5A623B;
   color: #fff;
 }
-
 
 /* =========================
    HIGHLIGHT
@@ -449,7 +512,6 @@ h1, h2, h3 {
   font-size: 0.8rem;
   color: #93a164;
 }
-
 
 /* =========================
    FORM (SIMPLE + CONSISTENT)

@@ -1,7 +1,4 @@
-name: "Naam"
-email: "E-mail"
-answer: "Jouw antwoord"
-submit: "Versturen"
+intro_text: "Fascination of Plants Day wordt wereldwijd tweejaarlijks gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze passie voor planten. Aan de Universiteit Utrecht vieren we deze dag sinds 2024, en we blijven dit doen in 2026. Bekijk hieronder beide tentoonstellingen. Veel plezier!"
 
 exhibition2024: "Tentoonstelling 2024"
 exhibition2026: "Tentoonstelling 2026"
@@ -15,3 +12,9 @@ ce_item_4: "Kans om huisgemaakte kunst te winnen"
 ce_download_flyer: "Download brochure"
 ce_participation_text: "Wil je je inzichten delen over dit onderwerp? Doe mee via:"
 ce_participate: "Deelnemen"
+
+
+name: "Naam"
+email: "E-mail"
+answer: "Jouw antwoord"
+submit: "Versturen"

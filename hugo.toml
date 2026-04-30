@@ -1,10 +1,80 @@
-baseURL = "https://felaberecochea.github.io/fop/"
+baseURL = "http://localhost:1313/"
 title = "Fascination of Plants"
-languageCode = "en-us"
 theme = "plants-theme"
-relativeURLs = true
-canonifyURLs = true
 
-[taxonomies]
-category = ""
-tag = ""
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+[languages]
+
+[languages.en]
+languageName = "English"
+weight = 1
+contentDir = "content/en"
+
+[languages.nl]
+languageName = "Nederlands"
+weight = 2
+contentDir = "content/nl"
+
+[menu]
+
+# --- HOME ---
+[[menu.main]]
+name = "Home"
+pageRef = "_index"
+weight = 1
+
+# --- EXHIBITIONS (parent) ---
+[[menu.main]]
+name = "Exhibitions"
+identifier = "exhibitions"
+weight = 2
+
+[[menu.main]]
+name = "2024"
+pageRef = "exhibitions/2024"
+parent = "exhibitions"
+weight = 1
+
+[[menu.main]]
+name = "2026"
+pageRef = "exhibitions/2026"
+parent = "exhibitions"
+weight = 2
+
+# --- CURRENT EXHIBITION (parent) ---
+[[menu.main]]
+name = "Current Exhibition"
+identifier = "current"
+weight = 3
+
+[[menu.main]]
+name = "Closing Event"
+pageRef = "closing-event"
+parent = "current"
+weight = 1
+
+[[menu.main]]
+name = "Form"
+pageRef = "form"
+parent = "current"
+weight = 2
+
+# --- ABOUT (parent) ---
+[[menu.main]]
+name = "About"
+identifier = "about"
+weight = 4
+
+[[menu.main]]
+name = "Acknowledgements"
+pageRef = "acknowledgements"
+parent = "about"
+weight = 1
+
+[[menu.main]]
+name = "Contact"
+pageRef = "contact"
+parent = "about"
+weight = 2
