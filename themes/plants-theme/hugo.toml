@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://felaberecochea.github.io/fop/"
+publishDir = "public"
 title = "Fascination of Plants"
 theme = "plants-theme"
 
