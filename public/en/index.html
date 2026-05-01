@@ -11,138 +11,158 @@
 
   <header class="site-header">
 
-  <button class="menu-toggle">☰</button>
-
-<nav id="sidebar" class="sidebar">
-  <ul>
+  <div class="header-top">
+    <div class="language-switcher">
+      
+        <a href="/en" class="lang-btn active">
+          EN
+        </a>
+      
+        <a href="/nl" class="lang-btn ">
+          NL
+        </a>
+      
+    </div>
     
-      <li>
+    <h1 class="site-title">
+      <a href="/en/">Fascination of Plants</a>
+      
+    </h1>
 
-        
-          <a href="/en/">Home</a>
-        
+    <button class="menu-toggle">☰</button>
 
-        
+  </div>
 
-      </li>
-    
-      <li>
+  <nav id="sidebar" class="sidebar">
+    <button class="sidebar-close" aria-label="Close menu">✕</button>
+    <ul>
+      
+        <li>
 
-        
-          <span>Exhibitions</span>
-        
+          
+            <a href="/en/">Home</a>
+          
 
-        
-          <ul>
-            
-              <li>
-                <a href="/en/exhibitions/2024/">2024</a>
-              </li>
-            
-              <li>
-                <a href="/en/exhibitions/2026/">2026</a>
-              </li>
-            
-          </ul>
-        
+          
 
-      </li>
-    
-      <li>
+        </li>
+      
+        <li>
 
-        
-          <span>Current Exhibition</span>
-        
+          
+            <span>Exhibitions</span>
+          
 
-        
-          <ul>
-            
-              <li>
-                <a href="/en/closing-event/">Closing Event</a>
-              </li>
-            
-              <li>
-                <a href="/en/form/">Form</a>
-              </li>
-            
-          </ul>
-        
+          
+            <ul>
+              
+                <li>
+                  <a href="/en/exhibitions/2024/">Exhibition 2024</a>
+                </li>
+              
+                <li>
+                  <a href="/en/exhibitions/2026/">Exhibition 2026</a>
+                </li>
+              
+            </ul>
+          
 
-      </li>
-    
-      <li>
+        </li>
+      
+        <li>
 
-        
-          <span>About</span>
-        
+          
+            <span>Current exhibition</span>
+          
 
-        
-          <ul>
-            
-              <li>
-                <a href="/en/acknowledgements/">Acknowledgements</a>
-              </li>
-            
-              <li>
-                <a href="/en/contact/">Contact</a>
-              </li>
-            
-          </ul>
-        
+          
+            <ul>
+              
+                <li>
+                  <a href="/en/closing-event/">Closing event 2026</a>
+                </li>
+              
+                <li>
+                  <a href="/en/form/">Participate</a>
+                </li>
+              
+            </ul>
+          
 
-      </li>
-    
-  </ul>
-</nav>
+        </li>
+      
+        <li>
 
-<div class="language-switcher">
+          
+            <span>About</span>
+          
 
-  <a href="/en" class="lang-btn active">
-    EN
-  </a>
+          
+            <ul>
+              
+                <li>
+                  <a href="/en/acknowledgements/">Acknowledgements</a>
+                </li>
+              
+                <li>
+                  <a href="/en/contact/">Contact</a>
+                </li>
+              
+            </ul>
+          
 
-  <a href="/nl" class="lang-btn ">
-    NL
-  </a>
-
-</div>
-
-  <h1 class="site-title">
-    <a href="/en/">
-      <img src="/img/title.svg">
-    </a>
-  </h1>
+        </li>
+      
+    </ul>
+  </nav>
 
 </header>
-
-<main class="site-content">
   
 
 <main class="site-content">
-<div class="intro-text">
-  <p>Fascination of Plants Day is celebrated worldwide biannually on the 18th of May. We take this day to share our research and our excitement for plants. At Utrecht University we began celebrating this day on 2024, and we continue to do so on 2026. See both of these exhibitions below. Enjoy!</p>
+  <div class="intro-text">
+    <p>Fascination of Plants Day is celebrated worldwide biannually on the 18th of May. We take this day to share our research and our excitement for plants. At Utrecht University we began celebrating this day on 2024, and we continue to do so on 2026.</p>
+    <p>This website brings together both editions of the exhibition. Here you will find posters, projects, and contributions from researchers working across plant science. Explore the exhibitions below.</p>
+    <p><b>Enjoy!</b></p>
+  </div>
+    
+  </div><div class="exhibition-grid">
+  <a class="exhibition-card" href="/en/exhibitions/2024/">
+
+    <img src="/img/exhibition-2024.svg" alt="Plants & kids">
+
+    <div class="exhibition-overlay">
+      <div class="exhibition-title">
+        Plants & kids
+      </div>
+
+      <span class="exhibition-button">
+        Go to exhibition
+      </span>
+    </div>
+
+  </a>
+
+  <a class="exhibition-card" href="/en/exhibitions/2026/">
+
+    <img src="/img/exhibition-2026.svg" alt="Plants and the future">
+
+    <div class="exhibition-overlay">
+      <div class="exhibition-title">
+        Plants and the future
+      </div>
+
+      <span class="exhibition-button">
+        Go to exhibition
+      </span>
+    </div>
+
+  </a>
+
 </div>
 
-  <div class="exhibition-grid">
-    <a class="exhibition-card" href="/en/exhibitions/2026/">
-      <img src="/img/exhibition-2026.svg">
-      <div class="card-title">2026</div>
-    </a>
-
-    <a class="exhibition-card" href="/en/exhibitions/2024/">
-      <img src="/img/exhibition-2024.svg">
-      <div class="card-title">2024</div>
-    </a>
-
-    <a class="save-the-date" href="/en/closing-event/">
-      <img src="/img/save-the-date.svg">
-    </a>
-  </div>
-
 </main>
 
-
-</main>
 
   <footer class="site-footer">
 
@@ -159,17 +179,25 @@
 
 </footer>
 
-   <script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const btn = document.querySelector(".menu-toggle");
-    const sidebar = document.getElementById("sidebar");
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const btn = document.querySelector(".menu-toggle");
+  const closeBtn = document.querySelector(".sidebar-close");
+  const sidebar = document.getElementById("sidebar");
 
-    if (!btn || !sidebar) return;
+  if (!btn || !sidebar) return;
 
-    btn.addEventListener("click", function () {
-      sidebar.classList.toggle("open");
-    });
+  btn.addEventListener("click", function () {
+    sidebar.classList.toggle("open");
   });
-  </script>
+
+  if (closeBtn) {
+    closeBtn.addEventListener("click", function () {
+      sidebar.classList.remove("open");
+    });
+  }
+});
+</script>
+
 </body>
 </html>

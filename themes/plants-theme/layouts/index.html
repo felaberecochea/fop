@@ -1,25 +1,46 @@
 {{ define "main" }}
 
 <main class="site-content">
-<div class="intro-text">
-  <p>{{ i18n "intro_text" }}</p>
-</div>
-
-  <div class="exhibition-grid">
-    <a class="exhibition-card" href="{{ "exhibitions/2026/" | relLangURL }}">
-      <img src="{{ "img/exhibition-2026.svg" | relURL }}">
-      <div class="card-title">2026</div>
-    </a>
-
-    <a class="exhibition-card" href="{{ "exhibitions/2024/" | relLangURL }}">
-      <img src="{{ "img/exhibition-2024.svg" | relURL }}">
-      <div class="card-title">2024</div>
-    </a>
-
-    <a class="save-the-date" href="{{ "closing-event/" | relLangURL }}">
-      <img src="{{ "img/save-the-date.svg" | relURL }}">
-    </a>
+  <div class="intro-text">
+    <p>{{ i18n "intro_text_1" }}</p>
+    <p>{{ i18n "intro_text_2" }}</p>
+    <p><b>{{ i18n "intro_text_3" }}</b></p>
   </div>
+    
+  </div><div class="exhibition-grid">
+  <a class="exhibition-card" href="{{ "exhibitions/2024/" | relLangURL }}">
+
+    <img src="{{ "img/exhibition-2024.svg" | relURL }}" alt="Plants & kids">
+
+    <div class="exhibition-overlay">
+      <div class="exhibition-title">
+        {{ if eq .Lang "nl" }}Planten & kinderen{{ else }}Plants & kids{{ end }}
+      </div>
+
+      <span class="exhibition-button">
+        {{ if eq .Lang "nl" }}Ga naar tentoonstelling{{ else }}Go to exhibition{{ end }}
+      </span>
+    </div>
+
+  </a>
+
+  <a class="exhibition-card" href="{{ "exhibitions/2026/" | relLangURL }}">
+
+    <img src="{{ "img/exhibition-2026.svg" | relURL }}" alt="Plants and the future">
+
+    <div class="exhibition-overlay">
+      <div class="exhibition-title">
+        {{ if eq .Lang "nl" }}Planten en de toekomst{{ else }}Plants and the future{{ end }}
+      </div>
+
+      <span class="exhibition-button">
+        {{ if eq .Lang "nl" }}Ga naar tentoonstelling{{ else }}Go to exhibition{{ end }}
+      </span>
+    </div>
+
+  </a>
+
+</div>
 
 </main>
 

@@ -1,14 +1,38 @@
-intro_text: "Fascination of Plants Day wordt wereldwijd tweejaarlijks gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze passie voor planten. Aan de Universiteit Utrecht vieren we deze dag sinds 2024, en we blijven dit doen in 2026. Bekijk hieronder beide tentoonstellingen. Veel plezier!"
+intro_text_1: "Fascination of Plants Day wordt wereldwijd om de twee jaar gevierd op 18 mei. Op deze dag delen we ons onderzoek en onze fascinatie voor planten. Aan de Universiteit Utrecht zijn we hiermee begonnen in 2024 en zetten we dit voort in 2026."
+intro_text_2: "Deze website brengt beide edities van de tentoonstelling samen. Hier vind je posters, projecten en bijdragen van onderzoekers uit de plantwetenschappen. Ontdek de tentoonstellingen hieronder."
+intro_text_3: "Veel plezier!"
 
-exhibition2024: "Tentoonstelling 2024"
-exhibition2026: "Tentoonstelling 2026"
+
+exh2024_title: "Plants & Kids - Tentoonstelling 2024"
+exh2024_description: "Deze tentoonstelling brengt onderzoek en kunst samen rond plantontwikkeling en toekomstige ecosystemen."
+
+poster1_title: "Planten van de toekomst"
+poster1_author: "Guido van den Ackerveken"
+poster1_quote: "Voorbeeldcitaat over aanpassing en veerkracht van planten."
+
+poster2_title: "Muren tegen droogte"
+poster2_author: "Kaisa Kajala"
+poster2_quote: "Voorbeeldcitaat over droogteresistentie."
+
+poster3_title: "Onder water"
+poster3_author: "Rashmi Sasidharan"
+poster3_quote: "Voorbeeldcitaat over onderwaterplantenbiologie."
+
+poster4_title: "Vrienden en vijanden"
+poster4_author: "Corné Pieterse"
+poster4_quote: "Voorbeeldcitaat over plant-microbe interacties."
+
+exhibition2026_intro: "Planten zijn overal. Ze voeden ons, ondersteunen ecosystemen en vormen de wereld waarin we leven. Toch vindt plantenonderzoek vaak stilletjes plaats achter de deuren van het laboratorium, en wij, de plantenonderzoekers, delen het niet vaak met het publiek. Waarom?
+  Heeft dit te maken met het type onderzoek? Met de perceptie van het publiek? Of is het complexer? Dat lijkt zeker het geval. Bovendien is het hoofddoel van plantenonderzoek het genereren van kennis. Kan plantenonderzoek ook andere doelen hebben?
+  In deze acht posters zie je de antwoorden van onderzoekers en studenten van de Universiteit Utrecht op deze vragen. Terwijl je door de tentoonstelling loopt, vraag je jezelf af of je dezelfde meningen deelt.
+  Veel plezier met de tentoonstelling."
 
 ce_exhibition_period: "De tentoonstelling is beschikbaar van 15 mei tot 15 juni 2026."
 ce_intro: "Op 12 mei vindt het slot-evenement plaats met:"
-ce_item_1: "Een introductie van de Botanische Tuinen"
-ce_item_2: "Een keynote lezing"
-ce_item_3: "Een dynamische sessie"
-ce_item_4: "Kans om huisgemaakte kunst te winnen"
+ce_item_1: "Een introductie van de Botanische Tuinen."
+ce_item_2: "Een keynote lezing."
+ce_item_3: "Een dynamische sessie."
+ce_item_4: "Kans om huisgemaakte kunst te winnen!"
 ce_download_flyer: "Download brochure"
 ce_participation_text: "Wil je je inzichten delen over dit onderwerp? Doe mee via:"
 ce_participate: "Deelnemen"

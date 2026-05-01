@@ -1,15 +1,39 @@
-intro_text: "Fascination of Plants Day is celebrated worldwide biannually on the 18th of May. We take this day to share our research and our excitement for plants. At Utrecht University we began celebrating this day on 2024, and we continue to do so on 2026. See both of these exhibitions below. Enjoy!"
+intro_text_1: "Fascination of Plants Day is celebrated worldwide biannually on the 18th of May. We take this day to share our research and our excitement for plants. At Utrecht University we began celebrating this day on 2024, and we continue to do so on 2026."
+intro_text_2: "This website brings together both editions of the exhibition. Here you will find posters, projects, and contributions from researchers working across plant science. Explore the exhibitions below."
+intro_text_3: "Enjoy!"
+
+exh2024_title: "Plants & Kids - Exhibition 2024"
+exh2024_description: "This exhibition brings together research and art around plant development and future ecosystems."
+
+poster1_title: "Plants from the future"
+poster1_author: "Guido van den Ackerveken"
+poster1_quote: "Sample quote about plant adaptation and future resilience."
+
+poster2_title: "Walls against drought"
+poster2_author: "Kaisa Kajala"
+poster2_quote: "Sample quote about drought resistance mechanisms."
+
+poster3_title: "Underwater"
+poster3_author: "Rashmi Sasidharan"
+poster3_quote: "Sample quote about submerged plant biology."
+
+poster4_title: "Friends and foes"
+poster4_author: "Corné Pieterse"
+poster4_quote: "Sample quote about plant-microbe interactions."
+
+exhibition2026_intro: "Plants are everywhere. They feed us, sustain ecosystems, and shape the world we live in. Yet plant research tends to happen quietly behind laboratory doors, and we, the plant researchers, don’t often share it with the public. Why?
+  Does it have to do with the type of research? With the public’s perception? Or maybe it is more complex? It certainly seems to be. Moreover, the main aim of plant research is to fulfil the goal of generating knowledge. Can plant research also have other purposes?
+  In these eight posters, you can look at some of Utrecht University’s researchers’ and students’ answers to these questions. As you read through the exhibition, ponder if you share the same opinions.
+  Enjoy the exhibition."
 
 
-exhibition2024: "Exhibition 2024"
-exhibition2026: "Exhibition 2026"
 
 ce_exhibition_period: "The exhibition is available from 15 May to 15 June 2026."
 ce_intro: "On 12 May, a closing event will take place including:"
-ce_item_1: "An introduction from the Botanical Gardens"
-ce_item_2: "A keynote lecture"
-ce_item_3: "A dynamic session"
-ce_item_4: "The possibility to win house-made art"
+ce_item_1: "An introduction from the Botanical Gardens."
+ce_item_2: "A keynote lecture."
+ce_item_3: "A dynamic session."
+ce_item_4: "The possibility to win house-made art!"
 ce_download_flyer: "Download flyer"
 ce_participation_text: "If you would like to contribute your insights on the topic, you can participate here:"
 ce_participate: "Participate"

@@ -1,45 +1,50 @@
 <header class="site-header">
 
-  <button class="menu-toggle">☰</button>
+  <div class="header-top">
+    <div class="language-switcher">
+      {{ range .Site.Languages }}
+        <a href="{{ .Lang | relURL }}" class="lang-btn {{ if eq $.Lang .Lang }}active{{ end }}">
+          {{ .Lang | upper }}
+        </a>
+      {{ end }}
+    </div>
+    
+    <h1 class="site-title">
+      <a href="{{ .Site.Home.RelPermalink }}">Fascination of Plants</a>
+      <!--<a href="{{ .Site.Home.RelPermalink }}">
+        <img src="{{ "img/title.svg" | relURL }}" alt="Fascination of Plants">
+      </a>-->
+    </h1>
 
-<nav id="sidebar" class="sidebar">
-  <ul>
-    {{ range .Site.Menus.main }}
-      <li>
+    <button class="menu-toggle">☰</button>
 
-        {{ if .Page }}
-          <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-        {{ else }}
-          <span>{{ .Name }}</span>
-        {{ end }}
+  </div>
 
-        {{ if .HasChildren }}
-          <ul>
-            {{ range .Children }}
-              <li>
-                <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-              </li>
-            {{ end }}
-          </ul>
-        {{ end }}
+  <nav id="sidebar" class="sidebar">
+    <button class="sidebar-close" aria-label="Close menu">✕</button>
+    <ul>
+      {{ range .Site.Menus.main }}
+        <li>
 
-      </li>
-    {{ end }}
-  </ul>
-</nav>
+          {{ if .Page }}
+            <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+          {{ else }}
+            <span>{{ .Name }}</span>
+          {{ end }}
 
-<div class="language-switcher">
-{{ range .Site.Languages }}
-  <a href="{{ .Lang | relURL }}" class="lang-btn {{ if eq $.Lang .Lang }}active{{ end }}">
-    {{ .Lang | upper }}
-  </a>
-{{ end }}
-</div>
+          {{ if .HasChildren }}
+            <ul>
+              {{ range .Children }}
+                <li>
+                  <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          {{ end }}
 
-  <h1 class="site-title">
-    <a href="{{ .Site.Home.RelPermalink }}">
-      <img src="{{ "img/title.svg" | relURL }}">
-    </a>
-  </h1>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
 
 </header>
