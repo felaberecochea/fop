@@ -462,11 +462,11 @@ h1, h2, h3 {
 }
 
 .poster-note {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 0.6rem;
-  font-weight: 300;
-  font-style: italic;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
 }
+
 /* TITLE */
 .card-title {
   position: absolute;
