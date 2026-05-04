@@ -3,42 +3,89 @@ intro_text_2: "Deze website brengt beide edities van de tentoonstelling samen. H
 intro_text_3: "Veel plezier!"
 
 
-exh2024_title: "Plants & Kids - Tentoonstelling 2024"
-exh2024_description: "Deze tentoonstelling brengt onderzoek en kunst samen rond plantontwikkeling en toekomstige ecosystemen."
+exh2024_title: "De geheime superkrachten van planten"
+exh2024_description: "Deze tentoonstelling, gemaakt voor de Fascination of Plants Day, nodigt kinderen uit om de verborgen wereld van plantoverleving te ontdekken door de ogen van echte wetenschappers van de Universiteit Utrecht. 
+  Met behulp van leuke en herkenbare metaforen legt de tentoonstelling uit hoe planten omgaan met de grote uitdagingen van klimaatverandering, zoals extreme hitte en overstromingen. Bezoekers leren dat planten niet zomaar stilstaan—ze zijn actieve overlevers met verbazingwekkende 'superkrachten'. 
+  Door middel van interactieve uitdagingen—zoals je adem inhouden of je favoriete groente kiezen—maakt de tentoonstelling complexe biotechnologie en plant-microbe interacties begrijpelijk en boeiend voor de volgende generatie wetenschappers."
+exhibition_button: "Ga naar tentoonstelling"
 
-poster1_title: "Planten van de toekomst"
-poster1_author: "Guido van den Ackerveken"
-poster1_quote: "Voorbeeldcitaat over aanpassing en veerkracht van planten."
+exh2024_poster1_title: "Planten van de toekomst"
+exh2024_poster1_quote: "Wij verbeteren gewassen zodat ze vijanden kunnen afweren, onder water lang hun adem in kunnen houden en muren kunnen bouwen tegen droogte."
 
-poster2_title: "Muren tegen droogte"
-poster2_author: "Kaisa Kajala"
-poster2_quote: "Voorbeeldcitaat over droogteresistentie."
+exh2024_poster2_title: "Muren tegen droogte"
+exh2024_poster2_quote: "Planten hebben een slim trucje bedacht om niet uit te drogen: muren van kurk!"
 
-poster3_title: "Onder water"
-poster3_author: "Rashmi Sasidharan"
-poster3_quote: "Voorbeeldcitaat over onderwaterplantenbiologie."
+exh2024_poster3_title: "Onder water"
+exh2024_poster3_quote: "Wanneer ze onder water staan, kunnen sommige planten hun bladgroei versnellen om boven het water te komen. Met deze 'snorkels' kunnen ze dan toch ademen."
 
-poster4_title: "Vrienden en vijanden"
-poster4_author: "Corné Pieterse"
-poster4_quote: "Voorbeeldcitaat over plant-microbe interacties."
+exh2024_poster4_title: "Vrienden en vijanden"
+exh2024_poster4_quote: "Wanneer de plant wordt aangevallen door vijanden, roept de plant de hulp in van zijn ondergrondse vrienden!"
 
-exh2026_title: "Plants & de toekomst - Tentoonstelling 2026"
+
+
+exh2026_title: "Hartige gesprekken met wetenschappers"
 exh2026_description: "Planten zijn overal. Ze voeden ons, ondersteunen ecosystemen en vormen de wereld waarin we leven. Toch vindt plantenonderzoek vaak stilletjes plaats achter de deuren van het laboratorium, en wij, de plantenonderzoekers, delen het niet vaak met het publiek. Waarom?
   Heeft dit te maken met het type onderzoek? Met de perceptie van het publiek? Of is het complexer? Dat lijkt zeker het geval. Bovendien is het hoofddoel van plantenonderzoek het genereren van kennis. Kan plantenonderzoek ook andere doelen hebben?
   In deze acht posters zie je de antwoorden van onderzoekers en studenten van de Universiteit Utrecht op deze vragen. Terwijl je door de tentoonstelling loopt, vraag je jezelf af of je dezelfde meningen deelt.
   Veel plezier met de tentoonstelling."
+
+exh2026_poster1_title: "Tomaten kweken zonder de plant"
+exh2026_poster1_quote: "Dit is onze versie van kweekvlees, maar dan voor tomaten."
+
+exh2026_poster2_title: "Computationele modellering van slimme plantbeslissingen"
+exh2026_poster2_quote: "Ik wil met mijn onderzoek aantonen dat planten, die geen hersenen hebben, slimme beslissingen kunnen nemen."
+
+exh2026_poster3_title: "Cellulaire programmering en patroonvorming in planten"
+exh2026_poster3_quote: "Zodra we de programmering begrijpen, zullen we onze eigen programma's aan de code toevoegen."
+
+exh2026_poster4_title: "Wortels versterken tegen droogte en parasieten"
+exh2026_poster4_quote: "Mijn werk aan heksenkruid-resistente sorghum kan het leven van veel boeren verbeteren."
+
+exh2026_poster5_title: "De evolutie van beschermende wortelbarrières"
+exh2026_poster5_quote: "In principe is mijn onderzoek eenvoudig uit te leggen: planten met sterkere wortels zijn beter bestand tegen droogte."
+
+exh2026_poster6_title: "Weerbaarheid van planten tegen infecties en ziekten"
+exh2026_poster6_quote: "Door alles te simplistisch voor te stellen, lopen we het risico degenen te verliezen die oprecht geïnteresseerd zijn in een dieper inzicht in de plantkunde."
+
+exh2026_poster7_title: "Reacties van planten op waterstress in de omgeving"
+exh2026_poster7_quote: "Als wetenschappers hebben we een grote verantwoordelijkheid om ons uit te spreken over hoe belangrijk het is om te investeren in nieuwe technologieën."
+
+exh2026_poster8_title: "Cellulaire communicatie in wortels tijdens overstromingen"
+exh2026_poster8_quote: "Ik wil graag weten wat er tijdens overstromingen op cellulair niveau in de wortel gebeurt... en hoe ze onder deze omstandigheden met elkaar communiceren."
 poster_note: "Klik op een poster om de volledige versie te bekijken of te downloaden."
 
-ce_exhibition_period: "De tentoonstelling is beschikbaar van 15 mei tot 15 juni 2026."
-ce_intro: "Op 12 mei vindt het slot-evenement plaats met:"
-ce_item_1: "Een introductie van de Botanische Tuinen."
-ce_item_2: "Een keynote lezing."
-ce_item_3: "Een dynamische sessie."
-ce_item_4: "Kans om huisgemaakte kunst te winnen!"
+
+
+ce_title: "Huidige tentoonstelling"
+ce_intro1: "De 2026-tentoonstelling is te bezichtigen van 15 mei tot 15 juni 2026.
+  Op 12 mei vindt een slot-evenement plaats in de Botanische Tuinen van de Universiteit Utrecht (zie adres hieronder).
+  Het slot-evenement brengt de ideeën, vragen en perspectieven samen die tijdens de tentoonstelling aan bod komen.
+  Het is een moment om te reflecteren op hoe plantenwetenschap verbonden is met de samenleving en hoe onderzoekers en het publiek elkaar beter kunnen vinden."
+
+ce_intro2: "Dit evenement is gratis en voor iedereen toegankelijk. Je bent van harte welkom om samen met vrienden en familie langs te komen!"
+ce_intro3: "Tijdens het evenement krijgen bezoekers de kans om:"
+
+ce_item_1: "Onderzoekers te ontmoeten en in gesprek te gaan over de thema’s uit de posters."
+ce_item_2: "Te ontdekken hoe plantenwetenschap bijdraagt aan het oplossen van mondiale uitdagingen zoals klimaatverandering, voedselzekerheid en duurzaamheid."
+ce_item_3: "Deel te nemen aan een interactieve sessie met kans op het winnen van huisgemaakte kunst!"
+
 ce_download_flyer: "Download brochure"
-ce_participation_text: "Wil je je inzichten delen over dit onderwerp? Doe mee via:"
+ce_participation_text: "Als je je inzichten over dit onderwerp wilt delen, kun je hier deelnemen:"
 ce_participate: "Deelnemen"
 
+ce_address_title: "Adres"
+ce_address1: "Budapestlaan 17, 3584 CD Utrecht"
+ce_address2: "Utrecht Science Park"
+ce_address3: "Routebeschrijving"
+
+
+form_title: "Wat denk jij?"
+form_intro_1: "De posters in deze tentoonstelling presenteren lopend onderzoek naar plantenbiologie en milieuaanpassing. Elk project laat een ander perspectief zien op hoe planten reageren op veranderende omstandigheden."
+form_intro_2: "We nodigen je uit om te reageren met je eigen interpretatie, reflectie of vraag. Jouw input helpt om een gedeelde ruimte te creëren voor uitwisseling tussen wetenschap en publieke ervaring."
+
+form_disclaimer_1: "Door je e-mailadres in te dienen, ga je ermee akkoord een eenmalige herinnering over het slotevenement te ontvangen."
+form_disclaimer_2: "Je naam, e-mailadres en reactie worden alleen voor dit doel gebruikt."
+form_disclaimer_3: "Er worden geen gegevens opgeslagen buiten de scope van dit project."
 
 name: "Naam"
 email: "E-mail"

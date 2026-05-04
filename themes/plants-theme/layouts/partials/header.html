@@ -2,12 +2,14 @@
 
   <div class="header-top">
     <div class="language-switcher">
-      {{ range .Site.Languages }}
-        <a href="{{ .Lang | relURL }}" class="lang-btn {{ if eq $.Lang .Lang }}active{{ end }}">
-          {{ .Lang | upper }}
-        </a>
-      {{ end }}
-    </div>
+    {{ $translations := .AllTranslations }}
+    {{ range sort $translations "Lang" }}
+      <a href="{{ .RelPermalink }}"
+      class="lang-btn {{ if eq $.Lang .Lang }}active{{ end }}">
+      {{ .Lang | upper }}
+      </a>
+    {{ end }}
+  </div>
     
     <h1 class="site-title">
       <a href="{{ .Site.Home.RelPermalink }}">Fascination of Plants</a>

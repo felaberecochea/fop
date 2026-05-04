@@ -107,11 +107,19 @@ u{
   font-weight: 300;
 }
 
-h1, h2, h3 {
+h1, h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #5a623b;
 }
+
+h3{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  color: #5a623b;
+  font-size: 1.16rem;
+}
+
 .site-footer {
   margin-top: 3rem;
   padding: 2rem 1rem;
@@ -481,6 +489,53 @@ h1, h2, h3 {
   text-shadow: 0 5px 10px rgb(0, 0, 0);
 }
 
+/* =========================
+   CLOSING EVENT
+========================= */
+.ce-item{
+  color:#5A623B;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  margin-top: 1rem;
+
+  background-color: #5A623B;
+  color: #f0f0e7;
+
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+.button:hover {
+  background-color: #f0f0e7;
+  color: #5A623B;
+  border: 1px solid #5A623B;
+}
+.ce-address {
+  margin-top: 2rem;
+}
+
+.ce-address-text {
+  font-size: 1.16rem;
+  font-weight: 300;
+  line-height: 1.3;
+  color: #5a623b;
+}
+
+.ce-address-text a {
+  color: #5a623b;
+  text-decoration: underline;
+}
+
 
 /* =========================
    SAVE THE DATE
@@ -506,86 +561,7 @@ h1, h2, h3 {
   transform: scale(1.01);
 }
 
-/* =========================
-   POSTER GRID EXHIBITIONS
-========================= 
 
-.poster-story {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-
-.poster-slide {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: clamp(320px, 75vh, 900px);
-  overflow: hidden;
-  text-decoration: none;
-  margin: 0;            
-}
-
-
-.poster-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-
-.poster-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.25);
-  transition: background 0.4s ease;
-}
-
-
-.poster-text {
-  position: absolute;
-  bottom: 8%;
-  left: 6%;
-  right: 6%;
-  z-index: 2;
-  color: #f3f3ea;
-
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-
-.poster-title {
-  font-family: 'Open Sans', sans-serif;
-  font-size: clamp(1.2rem, 2.5vw, 2rem);
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-}
-
-.poster-author {
-  font-family: 'Open Sans', sans-serif;
-  font-size: clamp(0.9rem, 1.5vw, 1.1rem);
-}
-
-.poster-description {
-  font-family: 'Open Sans', sans-serif;
-  font-size: clamp(0.85rem, 1.3vw, 1rem);
-  opacity: 0.9;
-  max-width: 60ch;
-}
-
-.poster-slide:hover .poster-overlay {
-  background: rgba(0,0,0,0.6);
-}
-
-.poster-slide:hover img {
-  transform: scale(1.03);
-  transition: transform 0.6s ease;
-}
-*/
 
 /* =========================
    FOOTER
@@ -628,7 +604,9 @@ h1, h2, h3 {
 
 .form-section label {
   font-family: 'Open Sans', sans-serif;
-  font-size: 0.9rem;
+  font-size: 1.14rem;
+  font-weight: 300;
+  color: #5A623B;
 }
 
 .form-section input,
@@ -647,19 +625,25 @@ h1, h2, h3 {
   border: none;
   padding: 0.7rem 1.2rem;
   font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1.16rem;
   cursor: pointer;
   border-radius: 4px;
 }
 
-/* disclaimer */
 .form-disclaimer {
   margin-top: 2rem;
-  font-size: 0.8rem;
-  line-height: 1.5;
-  color: #5a623b;
   border-top: 1px solid #D6D6CA;
   padding-top: 1rem;
+
+}
+.form-disclaimer p {
   font-family: 'Open Sans', sans-serif;
+  margin: 0 0 0.6rem 0;
+  color: #5A623B;
+  font-weight: 300;
+  font-size: 0.8rem;
+    line-height: 1.5;
 }
 
 .form-intro {

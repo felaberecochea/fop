@@ -2,124 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:64565/nl/acknowledgements/</loc>
+    <loc>http://localhost:1313/fop/nl/acknowledgements/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/acknowledgements/"
+                href="http://localhost:1313/fop/en/acknowledgements/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/acknowledgements/"
+                href="http://localhost:1313/fop/nl/acknowledgements/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/categories/</loc>
+    <loc>http://localhost:1313/fop/nl/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/categories/"
+                href="http://localhost:1313/fop/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/categories/"
+                href="http://localhost:1313/fop/nl/categories/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/closing-event/</loc>
+    <loc>http://localhost:1313/fop/nl/closing-event/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/closing-event/"
+                href="http://localhost:1313/fop/en/closing-event/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/closing-event/"
+                href="http://localhost:1313/fop/nl/closing-event/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/contact/</loc>
+    <loc>http://localhost:1313/fop/nl/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/contact/"
+                href="http://localhost:1313/fop/en/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/contact/"
+                href="http://localhost:1313/fop/nl/contact/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/exhibitions/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/exhibitions/"
+                href="http://localhost:1313/fop/en/exhibitions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/exhibitions/"
+                href="http://localhost:1313/fop/nl/exhibitions/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/</loc>
+    <loc>http://localhost:1313/fop/nl/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/"
+                href="http://localhost:1313/fop/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/"
+                href="http://localhost:1313/fop/nl/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/form/</loc>
+    <loc>http://localhost:1313/fop/nl/form/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/form/"
+                href="http://localhost:1313/fop/en/form/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/form/"
+                href="http://localhost:1313/fop/nl/form/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/tags/</loc>
+    <loc>http://localhost:1313/fop/nl/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/tags/"
+                href="http://localhost:1313/fop/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/tags/"
+                href="http://localhost:1313/fop/nl/tags/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/exhibitions/2024/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/2024/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/exhibitions/2024/"
+                href="http://localhost:1313/fop/en/exhibitions/2024/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/exhibitions/2024/"
+                href="http://localhost:1313/fop/nl/exhibitions/2024/"
                 />
   </url><url>
-    <loc>http://localhost:64565/nl/exhibitions/2026/</loc>
+    <loc>http://localhost:1313/fop/nl/exhibitions/2026/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:64565/en/exhibitions/2026/"
+                href="http://localhost:1313/fop/en/exhibitions/2026/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="nl"
-                href="http://localhost:64565/nl/exhibitions/2026/"
+                href="http://localhost:1313/fop/nl/exhibitions/2026/"
                 />
   </url>
 </urlset>
