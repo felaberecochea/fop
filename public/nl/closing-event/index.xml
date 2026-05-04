@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Closing event NL on Fascination of Plants</title>
-    <link>http://localhost:1313/fop/nl/closing-event/</link>
+    <link>https://felaberecochea.github.io/fop/nl/closing-event/</link>
     <description>Recent content in Closing event NL on Fascination of Plants</description>
     <generator>Hugo</generator>
     <language>nl</language>
-    <atom:link href="http://localhost:1313/fop/nl/closing-event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://felaberecochea.github.io/fop/nl/closing-event/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
