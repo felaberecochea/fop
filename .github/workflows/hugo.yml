@@ -27,7 +27,7 @@ jobs:
           extended: true
 
       - name: Build site
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://felaberecochea.github.io/fop/"
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
