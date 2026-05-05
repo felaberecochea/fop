@@ -56,7 +56,12 @@ exh2026_poster7_quote: "As scientists we have a great responsibility to speak ou
 
 exh2026_poster8_title: "Cellular Communication in Roots During Flooding"
 exh2026_poster8_quote: "I want to know what happens at the cellular level in the root during flooding... and how they communicate with each other under these conditions."
-poster_note: "Click on any poster to view or download the full version."
+
+exh2026_poster9_title: "The Role of Soil Microbiomes in Plant Health"
+exh2026_poster9_quote: "Just like our gut microbiome, plants have their own microbiome in the soil around the roots."
+
+exh_button: "See poster"
+
 
 
 ce_title: "Current exhibition"
