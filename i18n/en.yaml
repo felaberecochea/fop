@@ -4,18 +4,18 @@ intro_text_3: "Enjoy!"
 
 
 
-exh2024_title: "The Secret Superpowers of Plants"
+exh2024_title: "Exhibition 2024 | The Secret Superpowers of Plants"
 exh2024_description: "This exhibition, created for Fascination of Plants Day, invites children to discover the hidden world of plant survival through the eyes of real scientists at Utrecht University. 
-  Using fun, relatable metaphors, the exhibition explains how plants deal with the big challenges of climate change, such as extreme heat and flooding. Visitors learn that plants aren't just sitting still—they are active survivors with amazing 'superpowers'. 
-  Through interactive challenges—such as holding your breath or finding a favourite vegetable—the exhibition makes complex biotechnology and plant-microbe interactions easy and exciting for the next generation of scientists."
+  Using fun, relatable metaphors, the exhibition explains how plants deal with the big challenges of climate change, such as extreme heat and flooding. Visitors learn that plants aren't just sitting still, they are active survivors with amazing 'superpowers'. 
+  Through interactive challenges such as holding your breath or finding a favourite vegetable, the exhibition makes plant research easy and exciting for the next generation of scientists."
 
 exhibition_button: "Go to exhibition"
 
 exh2024_poster1_title: "Plants from the Future"
-exh2024_poster1_quote: "We are improving crops so they can combat foes, hold their breath underwater and build walls against drought."
+exh2024_poster1_quote: "To have enough food for everyone in the future, we want to make stonger crops that can survive climate change."
 
 exh2024_poster2_title: "Walls Against Drought"
-exh2024_poster2_quote: "Plants came up with a smart little trick to prevent dehydration: walls of cork!"
+exh2024_poster2_quote: "Plants came up with a smart little trick to prevent dehydration: walls of cork! By building these walls, plants make sure that they maintain their water levels."
 
 exh2024_poster3_title: "Underwater"
 exh2024_poster3_quote: "When submerged, some plants speed up leaf growth to emerge out of the water. With these 'snorkels', they still can breathe."
@@ -25,11 +25,13 @@ exh2024_poster4_quote: "When the plant is under attack by foes, the plant calls 
 
 
 
-exh2026_title: "Honest Conversations with Scientists"
+exh2026_title: "Exhibition 2026 | Honest Conversations with Scientists"
 exh2026_description: "Plants are everywhere. They feed us, sustain ecosystems, and shape the world we live in. Yet plant research tends to happen quietly behind laboratory doors, and we, the plant researchers, don’t often share it with the public. Why?
-  Does it have to do with the type of research? With the public’s perception? Or maybe it is more complex? It certainly seems to be. Moreover, the main aim of plant research is to fulfil the goal of generating knowledge. Can plant research also have other purposes?
-  In these eight posters, you can look at some of Utrecht University’s researchers’ and students’ answers to these questions. As you read through the exhibition, ponder if you share the same opinions.
-  Enjoy the exhibition."
+  Does it have to do with the type of research? With the public’s perception? Or maybe it is more complex? It certainly seems to be. Moreover, the main aim of plant research is to fulfil the goal of generating knowledge. 
+  Can plant research also have other purposes?
+  Below you can see the same eight posters that you have in front of you, but in the Dutch language. 
+  As you read through the exhibition, ponder if you share the same opinions, and don't hesitate to share your thoughts"
+exh2026_participate: "here."
 
 exh2026_poster1_title: "Growing Tomatoes Without the Plant"
 exh2026_poster1_quote: "This is our version of lab-grown meat, but for tomatoes."
@@ -60,36 +62,41 @@ poster_note: "Click on any poster to view or download the full version."
 ce_title: "Current exhibition"
 ce_intro1: |
   The 2026 exhibition will be available from 15 May to 15 June 2026.
-  On 12 May, a closing event will take place in the Botanic Gardens at Utrecht University (see full address below).
+  On 12 May, a closing event will take place in De Vagant at Utrecht University (see full address below).
   The closing event brings together the ideas, questions, and perspectives explored throughout the exhibition.
   It is a moment to reflect on how plant science connects to society, and how researchers and the public can engage more openly with each other.
 
-ce_intro2: "This event is free and open to the public, so please feel free to join us and bring your friends and family!"
+ce_intro2: "This event is free and open to the public. To register please participate so please feel free to join us and bring your friends and family!"
 ce_intro3: "During the event, visitors will have the opportunity to:"
 
-ce_item_1: "Meet researchers, discuss the themes presented in the posters."
-ce_item_2: "explore how plant science contributes to addressing global challenges such as climate change, food security, and sustainability."
-ce_item_3: "Participate in a dynamic session with the possibility to win house-made art!"
-
+ce_item_1: "Meet some of the researchers, and discuss the themes presented in the posters."
+ce_item_2: "Hear from Dr. Carlijn Lammers, a plant scientist at Utrecht University, 
+  about how her research on how plants shape dune landscapes in 
+  Dutch coastlines has had an impact on future policy and protection of this ecosystem."
+ce_item_3: "Participate in a dynamic session with the possibility to win some striking research images made by the researchers at UU Plants."
 ce_download_flyer: "Download flyer"
-ce_participation_text: "If you would like to contribute your insights on the topic, you can participate here:"
+
+ce_participation_text: "This event is free. To register, please share your insights on any of the topics discussed in the posters. 
+  After registering, you will receive an invitation by email a few days before the closing event."
 ce_participate: "Participate"
 
 ce_address_title: "Address"
-ce_address1: "Budapestlaan 17, 3584 CD Utrecht"
+ce_address1: "Budapestlaan 4c, 3584 CD Utrecht"
 ce_address2: "Utrecht Science Park"
 ce_address3: "Get directions"
 
 
 form_title: "What do you think?"
-form_intro_1: "The posters in this exhibition present ongoing research on plant biology and environmental adaptation. Each project reflects a different perspective on how plants respond to changing conditions."
-form_intro_2: "We invite you to respond with your own interpretation, reflection, or question. Your input helps create a shared space for discussion between science and public experience."
+form_intro_1: "The posters in this exhibition present ongoing research on plant biology and environmental adaptation. 
+  Each project reflects a different perspective on how plants respond to changing conditions."
+form_intro_2: "We invite you to respond with your own interpretation, reflection, or question. 
+  Your input helps create a shared space for discussion between science and public experience."
 
 form_disclaimer_1: "By submitting your email address, you agree to receive a one-time reminder about the closing event."
-form_disclaimer_2: "Your name, email, and response will only be used for this purpose."
+form_disclaimer_2: "Your name, email, and response will only be used for this purpose. There's no need to register your real or full name, a nickname is enough."
 form_disclaimer_3: "No data will be stored beyond the scope of this project."
 
-name: "Name"
+name: "Name (or nickname)"
 email: "Email"
 answer: "Your answer"
 submit: "Submit"

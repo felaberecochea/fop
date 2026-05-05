@@ -27,20 +27,16 @@
     <ul>
       {{ range .Site.Menus.main }}
         <li>
-          {{ if .URL }}
-  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-{{ else if .Page }}
-  <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
-{{ else }}
-  <span>{{ .Name }}</span>
-{{ end }}
-
-          <!--{{ if .Page }}
+          {{ if eq .Identifier "home" }}
+            <a href="{{ .Site.Home.RelPermalink }}">{{ .Name }}</a>
+          {{ else if .URL }}
+            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+          {{ else if .Page }}
             <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
           {{ else }}
-            <span>{{ .Name }}</span>
-          {{ end }}-->
-
+           <span>{{ .Name }}</span>
+          {{ end }}
+          
           {{ if .HasChildren }}
             <ul>
               {{ range .Children }}

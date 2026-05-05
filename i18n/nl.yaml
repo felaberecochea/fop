@@ -3,17 +3,17 @@ intro_text_2: "Deze website brengt beide edities van de tentoonstelling samen. H
 intro_text_3: "Veel plezier!"
 
 
-exh2024_title: "De geheime superkrachten van planten"
-exh2024_description: "Deze tentoonstelling, gemaakt voor de Fascination of Plants Day, nodigt kinderen uit om de verborgen wereld van plantoverleving te ontdekken door de ogen van echte wetenschappers van de Universiteit Utrecht. 
-  Met behulp van leuke en herkenbare metaforen legt de tentoonstelling uit hoe planten omgaan met de grote uitdagingen van klimaatverandering, zoals extreme hitte en overstromingen. Bezoekers leren dat planten niet zomaar stilstaan—ze zijn actieve overlevers met verbazingwekkende 'superkrachten'. 
-  Door middel van interactieve uitdagingen—zoals je adem inhouden of je favoriete groente kiezen—maakt de tentoonstelling complexe biotechnologie en plant-microbe interacties begrijpelijk en boeiend voor de volgende generatie wetenschappers."
+exh2024_title: "Tentoonstelling 2024 | De geheime superkrachten van planten"
+exh2024_description: "Deze tentoonstelling, gemaakt voor Fascination of Plants Day, nodigt kinderen uit om de verborgen wereld van plantoverleving te ontdekken door de ogen van echte wetenschappers van de Universiteit Utrecht. 
+  Met behulp van leuke en herkenbare metaforen legt de tentoonstelling uit hoe planten omgaan met de grote uitdagingen van klimaatverandering, zoals extreme hitte en overstromingen. Bezoekers leren dat planten niet zomaar stil staan, maar actieve overlevers zijn met bijzondere ‘superkrachten’. 
+  Door interactieve opdrachten, zoals je adem inhouden of je favoriete groente vinden, maakt de tentoonstelling plantenonderzoek begrijpelijk en boeiend voor de volgende generatie wetenschappers."
 exhibition_button: "Ga naar tentoonstelling"
 
 exh2024_poster1_title: "Planten van de toekomst"
-exh2024_poster1_quote: "Wij verbeteren gewassen zodat ze vijanden kunnen afweren, onder water lang hun adem in kunnen houden en muren kunnen bouwen tegen droogte."
+exh2024_poster1_quote: "Om in de toekomst genoeg voedsel te hebben voor iedereen, proberen wij gewassen sterker te maken zodat ze beter tegen klimaatverandering kunnen."
 
 exh2024_poster2_title: "Muren tegen droogte"
-exh2024_poster2_quote: "Planten hebben een slim trucje bedacht om niet uit te drogen: muren van kurk!"
+exh2024_poster2_quote: "Planten hebben een slim trucje bedacht om niet uit te drogen: muren van kurk! Door deze muren aan te maken, zorgen planten ervoor dat hun water binnen blijft."
 
 exh2024_poster3_title: "Onder water"
 exh2024_poster3_quote: "Wanneer ze onder water staan, kunnen sommige planten hun bladgroei versnellen om boven het water te komen. Met deze 'snorkels' kunnen ze dan toch ademen."
@@ -23,7 +23,7 @@ exh2024_poster4_quote: "Wanneer de plant wordt aangevallen door vijanden, roept 
 
 
 
-exh2026_title: "Hartige gesprekken met wetenschappers"
+exh2026_title: "Tentoonstelling 2026 | Hartige gesprekken met wetenschappers"
 exh2026_description: "Planten zijn overal. Ze voeden ons, ondersteunen ecosystemen en vormen de wereld waarin we leven. Toch vindt plantenonderzoek vaak stilletjes plaats achter de deuren van het laboratorium, en wij, de plantenonderzoekers, delen het niet vaak met het publiek. Waarom?
   Heeft dit te maken met het type onderzoek? Met de perceptie van het publiek? Of is het complexer? Dat lijkt zeker het geval. Bovendien is het hoofddoel van plantenonderzoek het genereren van kennis. Kan plantenonderzoek ook andere doelen hebben?
   In deze acht posters zie je de antwoorden van onderzoekers en studenten van de Universiteit Utrecht op deze vragen. Terwijl je door de tentoonstelling loopt, vraag je jezelf af of je dezelfde meningen deelt.
@@ -58,7 +58,7 @@ poster_note: "Klik op een poster om de volledige versie te bekijken of te downlo
 
 ce_title: "Huidige tentoonstelling"
 ce_intro1: "De 2026-tentoonstelling is te bezichtigen van 15 mei tot 15 juni 2026.
-  Op 12 mei vindt een slot-evenement plaats in de Botanische Tuinen van de Universiteit Utrecht (zie adres hieronder).
+  Op 12 mei vindt een slot-evenement plaats in De Vagant van de Universiteit Utrecht (zie adres hieronder).
   Het slot-evenement brengt de ideeën, vragen en perspectieven samen die tijdens de tentoonstelling aan bod komen.
   Het is een moment om te reflecteren op hoe plantenwetenschap verbonden is met de samenleving en hoe onderzoekers en het publiek elkaar beter kunnen vinden."
 
@@ -70,11 +70,12 @@ ce_item_2: "Te ontdekken hoe plantenwetenschap bijdraagt aan het oplossen van mo
 ce_item_3: "Deel te nemen aan een interactieve sessie met kans op het winnen van huisgemaakte kunst!"
 
 ce_download_flyer: "Download brochure"
-ce_participation_text: "Als je je inzichten over dit onderwerp wilt delen, kun je hier deelnemen:"
+ce_participation_text: "Dit evenement is gratis. Om je te registreren, kun je je inzichten delen over een van de onderwerpen die in de posters aan bod komen. 
+  Na registratie ontvang je enkele dagen vóór het slotevenement een uitnodiging per e-mail."
 ce_participate: "Deelnemen"
 
 ce_address_title: "Adres"
-ce_address1: "Budapestlaan 17, 3584 CD Utrecht"
+ce_address1: "Budapestlaan 4c, 3584 CD Utrecht"
 ce_address2: "Utrecht Science Park"
 ce_address3: "Routebeschrijving"
 
@@ -87,7 +88,7 @@ form_disclaimer_1: "Door je e-mailadres in te dienen, ga je ermee akkoord een ee
 form_disclaimer_2: "Je naam, e-mailadres en reactie worden alleen voor dit doel gebruikt."
 form_disclaimer_3: "Er worden geen gegevens opgeslagen buiten de scope van dit project."
 
-name: "Naam"
+name: "Naam (bijnaam)"
 email: "E-mail"
 answer: "Jouw antwoord"
 submit: "Versturen"
