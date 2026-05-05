@@ -27,17 +27,13 @@
     <ul>
       {{ range .Site.Menus.main }}
         <li>
-          
-          {{ if eq .Identifier "home" }}
-            <a href="{{ .Site.Home.RelPermalink }}">{{ .Name }}</a>
-          {{ else if .URL }}
-            <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-          {{ else if .Page }}
+          {{ if .Page }}
             <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+          {{ else if .URL }}
+            <a href="{{ .URL | relURL }}">{{ .Name }}</a>
           {{ else }}
-           <span>{{ .Name }}</span>
+            <span>{{ .Name }}</span>
           {{ end }}
-
 
           {{ if .HasChildren }}
             <ul>
@@ -48,7 +44,6 @@
               {{ end }}
             </ul>
           {{ end }}
-
         </li>
       {{ end }}
     </ul>
