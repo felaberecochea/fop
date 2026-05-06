@@ -2,17 +2,37 @@
 <main class="site-content">
 <section class="closing-event">
 
-  <h2>{{ i18n "ce_title" }}</h2>
-  <p>{{ i18n "ce_intro1" }}</p>
-  <p>{{ i18n "ce_intro2" }}</p>
-  <p>{{ i18n "ce_intro3" }}</p>
+  <h1>{{ i18n "ce_title" }}</h1>
+  <p>{{ i18n "ce_intro1" }} 
+    {{ i18n "ce_intro2" }} 
+    <b><a href="https://maps.app.goo.gl/ex86ChyR8xUU59CY9" target="_blank" class="bold">{{ i18n "ce_intro3" }}</a></b>
+  </p>
+  <p>{{ i18n "ce_intro4" }}</p>
+  <p>{{ i18n "ce_intro5" }}</p>
 
-  <ul class="ce-item">
-    <li class="ce-item">{{ i18n "ce_item_1" }}</li>
-    <li class="ce-item">{{ i18n "ce_item_2" }}</li>
-    <li class="ce-item">{{ i18n "ce_item_3" }}</li>
-  </ul>
-<!-- https://www.uu.nl/medewerkers/CLammers-->
+  <div class="ce-program-grid">
+
+    <div class="ce-row">
+      <img src="{{ "img/ce_item1.svg" | relURL }}" alt="Program item 1">
+      <p>{{ i18n "ce_item_1" }}</p>
+    </div>
+
+    <div class="ce-row">
+      <img src="{{ "img/ce_item2.svg" | relURL }}" alt="Program item 2">
+      <p>
+        {{ i18n "ce_item_2" }}
+        <a href="https://www.uu.nl/medewerkers/CLammers" class="bold">{{ i18n "ce_item_3" }}</a>
+        {{ i18n "ce_item_4" }}
+      </p>
+    </div>
+
+    <div class="ce-row">
+      <img src="{{ "img/ce_item3.svg" | relURL }}" alt="Program item 3">
+      <p>{{ i18n "ce_item_5" }}</p>
+    </div>
+
+  </div>
+
   <p>
     <a class="button"
        href="{{ if eq .Language.Lang "nl" }}{{ "posters/closing-event/flyer-nl.pdf" | relURL }}{{ else }}{{ "posters/closing-event/flyer-en.pdf" | relURL }}{{ end }}"
@@ -34,7 +54,7 @@
   <hr>
 
 <section class="ce-address">
-  <h3>{{ i18n "ce_address_title" }}</h3>
+  <h2>{{ i18n "ce_address_title" }}</h2>
 
   <p class="ce-address-text">
     {{ i18n "ce_address1" }}<br>

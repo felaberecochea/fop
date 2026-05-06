@@ -1,14 +1,10 @@
 {{ define "main" }}
-
+<main class="site-content"></main>
 <div class="form-intro">
   <div class="form-intro-text">
-    <h2>{{ i18n "form_title" }}</h2>
-    <p class="intro-lead">
-      {{ i18n "form_intro_1" }}
-    </p>
-    <p>
-      {{ i18n "form_intro_2" }}
-    </p>
+    <h1>{{ i18n "form_title" }}</h1>
+    <p>{{ i18n "form_intro_1" }}</p>
+    <p>{{ i18n "form_intro_2" }}</p>
   </div>
 
   <!--<div class="form-intro-image">
@@ -17,9 +13,7 @@
 </div>
 
 <section class="form-section">
-
   {{ .Content }}
-
   <form action="https://formspree.io/f/mdaygneg" method="POST">
     <label>{{ i18n "name" }}</label>
     <input type="text" name="name" required>
@@ -33,6 +27,8 @@
     <button type="submit">{{ i18n "submit" }}</button>
   </form>
 
+  <hr>
+
   <div class="form-disclaimer">
     <p>{{ i18n "form_disclaimer_1" }}</p>
     <p>{{ i18n "form_disclaimer_2" }}</p>
@@ -40,5 +36,6 @@
   </div>
 
 </section>
+</main>
 
 {{ end }}

@@ -40,6 +40,7 @@
   margin: 0 auto;
   padding: 0 30px; /* mobile padding */
   box-sizing: border-box;
+  margin-top: 120px;
 }
 
 /* optional: consistent container behavior everywhere */
@@ -78,7 +79,7 @@ body {
 p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #5a623b;
   line-height: 1.6;
   opacity: 0;
@@ -86,29 +87,30 @@ p {
 }
 
 li{
-  font-size: 1.3rem;
-  color: #F5F5EC;
-  font-weight: 700;
+  font-size: 1.2rem;
+  color: #5a623b;
+  font-weight: 300;
 }
 
-/*u{
-  font-size: 1.2rem;
-  color: #F5F5EC;
-  font-weight: 300;
-}*/
 
-h1, h2{
+h1{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #5a623b;
   font-size: 1.6rem;
+  animation: textFadeIn 2s ease forwards;
 }
 
-h3{
+h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
   color: #5a623b;
   font-size: 1.16rem;
+}
+hr {
+  border: none;
+  border-top: 1px solid #93a164a2;
+  margin: 2rem 0;
 }
 
 @keyframes textFadeIn {
@@ -131,6 +133,7 @@ h3{
 /* =========================
    HEADER & TITLE
 ========================= */
+
 .site-title {
   margin:0px;
   justify-self: start;
@@ -193,6 +196,14 @@ h3{
   padding: 0 30px;
   box-sizing: border-box;
   width: 100%;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 @media (max-width: 768px) {
@@ -294,6 +305,8 @@ h3{
 
 .sidebar li {
   margin-bottom: 1rem;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 .sidebar a {
@@ -302,14 +315,18 @@ h3{
   font-weight: 400;
   color: #f0f0e7;
   font-size: 1rem;
+  line-height: 1.2rem;
 }
 .sidebar span{
   color: #f0f0e7;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 2rem;
 }
 
 /* SUBMENU */
 .sidebar ul ul {
+  margin-bottom: 1.5rem;
   margin-top: 0.5rem;
   margin-left: 1rem;
   font-size: 1rem;
@@ -322,7 +339,7 @@ h3{
   max-width: 700px;
   margin: 20px auto;
   opacity: 0;
-  animation: introFadeIn 3s ease forwards;
+  animation: introFadeIn 2s ease forwards;
 }
  
 .intro-text p:last-of-type {
@@ -341,50 +358,14 @@ h3{
 }
 
 /* =========================
-   NAVIGATION
-========================= */
-
-.section-nav {
-  margin-top: 2rem;
-  padding: 1rem;
-}
-
-.section-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  padding: 0;
-  margin: 0;
-  align-items: center;
-}
-
-.section-nav a {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  color: #5A623B;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  transition: 0.2s;
-}
-
-.section-nav a:hover {
-  background-color: #5A623B;
-  color: #f0f0e7;
-}
-
-/* =========================
-   HIGHLIGHT
-========================= */
-
-.highlight {
-  color: #5A623B;
-}
-
-/* =========================
    EXHIBITION CARDS
 ========================= */
+.bold{
+  font-weight: 700;
+  text-decoration: none;
+  color: #93a164;
+}
+
 .exhibition-grid {
   display: grid;
   grid-template-columns: 1fr; /* default = stacked everywhere */
@@ -399,13 +380,14 @@ h3{
   position: relative;
   height: 70vh;
   overflow: hidden;
-  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.45) 2px 2px 6px;
 }
 
 .exhibition-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  display: block;
 }
 
 .exhibition-overlay {
@@ -424,9 +406,11 @@ h3{
 .exhibition-title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.6rem;
   color: #f0f0e7;
   margin-bottom: 1rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .exhibition-button {
@@ -441,6 +425,7 @@ h3{
 .exhibition-button:hover {
   background: #f0f0e7;
   color: #5a623b;
+  text-shadow: none;
 }
 
 .exhibition-author {
@@ -449,6 +434,8 @@ h3{
   font-style: italic;
   font-size: 1.2rem;
   color: #f0f0e7;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .exhibition-quote {
@@ -460,15 +447,36 @@ h3{
   margin-bottom: 1rem;
   max-width: 50ch;
   opacity: 0.9;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 /* =========================
    CLOSING EVENT
 ========================= */
-.ce-item{
-  color:#5A623B;
-  font-weight: 300;
-  font-size: 1.4rem;
+.ce-program-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.ce-row {
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.ce-row img {
+  width: 40px;
+  height: auto;
+  display: block;
+  animation: introFadeIn 1.5s ease forwards;
+}
+
+.ce-row p {
+  margin: 0;
 }
 
 .button {
@@ -513,11 +521,10 @@ h3{
 /* =========================
    SAVE THE DATE
 ========================= */
-/* SAVE THE DATE BLOCK */
 .save-the-date {
   display: block;
-  max-width: 650px;     /* aligns with exhibition grid/text */
-  margin: 2rem auto 0;  /* spacing + center */
+  max-width: 650px;  
+  margin: 2rem auto 0;
   text-decoration: none;
 }
 
@@ -533,7 +540,6 @@ h3{
 .save-the-date:hover img {
   transform: scale(1.01);
 }
-
 
 
 /* =========================
@@ -561,9 +567,14 @@ h3{
 }
 
 /* =========================
-   FORM (SIMPLE + CONSISTENT)
+   FORM
 ========================= */
 .form-section {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.form-intro {
   max-width: 700px;
   margin: 2rem auto;
   padding: 0 1rem;
@@ -594,22 +605,23 @@ h3{
 
 .form-section button {
   background-color: #5A623B;
-  color: #fff;
+  color: #f0f0e7;
   border: none;
   padding: 0.7rem 1.2rem;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-size: 1.16rem;
+  font-weight: 400;
+  font-size: 1rem;
   cursor: pointer;
   border-radius: 4px;
+  transition: 0.2s ease;
 }
 
-.form-disclaimer {
-  margin-top: 2rem;
-  border-top: 1px solid #D6D6CA;
-  padding-top: 1rem;
-
+.form-section button:hover {
+  background-color: #f0f0e7;
+  color: #5A623B;
+  border: 1px solid #5A623B;
 }
+
 .form-disclaimer p {
   font-family: 'Open Sans', sans-serif;
   margin: 0 0 0.6rem 0;
@@ -619,46 +631,10 @@ h3{
     line-height: 1.5;
 }
 
-.form-intro {
-  max-width: 700px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-
-  display: flex;
-  align-items: flex-start; /* top aligned */
-  gap: 2rem;
-}
-
-.form-intro-text {
-  flex: 1;
-}
-
-.form-intro-text h2 {
-  margin-top: 0;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.form-intro-text p {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.6;
-}
-
-.form-intro-image {
-  flex: 1;
-  display: flex;
-  align-items: flex-start;
-}
-
-.form-intro-image img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
 /* mobile */
 @media (max-width: 768px) {
   .form-intro {
-    flex-direction: column;
+    padding: 0 1rem;
   }
 }
 

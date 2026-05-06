@@ -23,11 +23,15 @@ exh2024_poster4_quote: "Wanneer de plant wordt aangevallen door vijanden, roept 
 
 
 
-exh2026_title: "Tentoonstelling 2026 | Hartige gesprekken met wetenschappers"
-exh2026_description: "Planten zijn overal. Ze voeden ons, ondersteunen ecosystemen en vormen de wereld waarin we leven. Toch vindt plantenonderzoek vaak stilletjes plaats achter de deuren van het laboratorium, en wij, de plantenonderzoekers, delen het niet vaak met het publiek. Waarom?
-  Heeft dit te maken met het type onderzoek? Met de perceptie van het publiek? Of is het complexer? Dat lijkt zeker het geval. Bovendien is het hoofddoel van plantenonderzoek het genereren van kennis. Kan plantenonderzoek ook andere doelen hebben?
-  In deze acht posters zie je de antwoorden van onderzoekers en studenten van de Universiteit Utrecht op deze vragen. Terwijl je door de tentoonstelling loopt, vraag je jezelf af of je dezelfde meningen deelt.
-  Veel plezier met de tentoonstelling."
+exh2026_title: "Tentoonstelling 2026 | Eerlijke gesprekken met wetenschappers"
+exh2026_description: "Planten zijn overal. Ze voeden ons, ondersteunen ecosystemen en vormen de wereld waarin we leven. 
+  Toch vindt plantenonderzoek vaak stilletjes plaats achter de deuren van het laboratorium, en wij, de plantenonderzoekers, delen dit niet vaak met het publiek. 
+  Waarom? Heeft dit te maken met het type onderzoek? Met de perceptie van het publiek? Of is het complexer? 
+  Dat lijkt zeker het geval. Bovendien is het hoofddoel van plantenonderzoek het genereren van kennis." 
+exh2026_description2: "Kan plantenonderzoek ook andere doelen hebben?"
+exh2026_description3: "Hieronder zie je dezelfde acht posters die je voor je hebt, maar dan in het Nederlands.
+  Terwijl je door de tentoonstelling gaat, kun je nadenken of je dezelfde meningen deelt en aarzel niet om je gedachten te delen"
+exh2026_participate: "hier."
 
 exh2026_poster1_title: "Tomaten kweken zonder de plant"
 exh2026_poster1_quote: "Dit is onze versie van kweekvlees, maar dan voor tomaten."
@@ -61,21 +65,19 @@ exh_button: "Bekijk poster"
 
 
 ce_title: "Huidige tentoonstelling"
-ce_intro1: "De 2026-tentoonstelling is te bezichtigen van 15 mei tot 15 juni 2026.
-  Op 12 mei vindt een slot-evenement plaats in De Vagant van de Universiteit Utrecht (zie adres hieronder).
-  Het slot-evenement brengt de ideeën, vragen en perspectieven samen die tijdens de tentoonstelling aan bod komen.
-  Het is een moment om te reflecteren op hoe plantenwetenschap verbonden is met de samenleving en hoe onderzoekers en het publiek elkaar beter kunnen vinden."
-
-ce_intro2: "Dit evenement is gratis en voor iedereen toegankelijk. Je bent van harte welkom om samen met vrienden en familie langs te komen!"
-ce_intro3: "Tijdens het evenement krijgen bezoekers de kans om:"
-
-ce_item_1: "Onderzoekers te ontmoeten en in gesprek te gaan over de thema’s uit de posters."
-ce_item_2: "Te ontdekken hoe plantenwetenschap bijdraagt aan het oplossen van mondiale uitdagingen zoals klimaatverandering, voedselzekerheid en duurzaamheid."
-ce_item_3: "Deel te nemen aan een interactieve sessie met kans op het winnen van huisgemaakte kunst!"
-
-ce_download_flyer: "Download brochure"
-ce_participation_text: "Dit evenement is gratis. Om je te registreren, kun je je inzichten delen over een van de onderwerpen die in de posters aan bod komen. 
-  Na registratie ontvang je enkele dagen vóór het slotevenement een uitnodiging per e-mail."
+ce_intro1: "De 2026-tentoonstelling is te bezichtigen van 15 mei tot 15 juni 2026."
+ce_intro2: "Je kunt de tentoonstelling bezoeken in de"
+ce_intro3: "Botanische Tuinen van de Universiteit Utrecht."
+ce_intro4: "Op 12 mei vindt een slot-evenement plaats in De Vagant van de Universiteit Utrecht (zie volledig adres hieronder).\nHet slot-evenement brengt de ideeën, vragen en perspectieven samen die tijdens de tentoonstelling aan bod komen.\nHet is een moment om te reflecteren op hoe plantenwetenschap verbonden is met de samenleving en hoe onderzoekers en het publiek elkaar beter kunnen vinden."
+ce_intro5: "Tijdens het evenement krijgen bezoekers de kans om:"
+ce_item_1: "Onderzoekers te ontmoeten en de thema’s uit de posters te bespreken."
+ce_item_2: "Te luisteren naar"
+ce_item_3: "Dr. Carlijn Lammers"
+ce_item_4: ", een plantenwetenschapper aan de Universiteit Utrecht, over hoe haar onderzoek naar de rol van planten in de vorming van duinlandschappen langs de Nederlandse kust bijdraagt aan beleid en de bescherming van dit ecosysteem."
+ce_item_5: "Deel te nemen aan een dynamische sessie met kans op het winnen van bijzondere onderzoeksbeelden gemaakt door onderzoekers van UU Plants."
+ce_download_flyer: "Download flyer"
+ce_participation_text: "Dit evenement is gratis. Om te registreren, deel je je inzichten over een van de onderwerpen die in de posters worden besproken. Na registratie ontvang je enkele dagen vóór het slot-evenement een uitnodiging per e-mail."
+ce_participation_text2: "Deze uitnodiging bevat ook een gratis toegangspas voor de Botanische Tuinen tijdens het slot-evenement."
 ce_participate: "Deelnemen"
 
 ce_address_title: "Adres"
@@ -89,7 +91,7 @@ form_intro_1: "De posters in deze tentoonstelling presenteren lopend onderzoek n
 form_intro_2: "We nodigen je uit om te reageren met je eigen interpretatie, reflectie of vraag. Jouw input helpt om een gedeelde ruimte te creëren voor uitwisseling tussen wetenschap en publieke ervaring."
 
 form_disclaimer_1: "Door je e-mailadres in te dienen, ga je ermee akkoord een eenmalige herinnering over het slotevenement te ontvangen."
-form_disclaimer_2: "Je naam, e-mailadres en reactie worden alleen voor dit doel gebruikt."
+form_disclaimer_2: "Je naam, e-mailadres en reactie worden alleen voor dit doel gebruikt. Je hoeft niet je echte of volledige naam te gebruiken; een bijnaam is voldoende."
 form_disclaimer_3: "Er worden geen gegevens opgeslagen buiten de scope van dit project."
 
 name: "Naam (bijnaam)"

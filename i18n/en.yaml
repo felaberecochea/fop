@@ -5,8 +5,10 @@ intro_text_3: "Enjoy!"
 
 
 exh2024_title: "Exhibition 2024 | The Secret Superpowers of Plants"
-exh2024_description: "This exhibition, created for Fascination of Plants Day, invites children to discover the hidden world of plant survival through the eyes of real scientists at Utrecht University. 
-  Using fun, relatable metaphors, the exhibition explains how plants deal with the big challenges of climate change, such as extreme heat and flooding. Visitors learn that plants aren't just sitting still, they are active survivors with amazing 'superpowers'. 
+exh2024_description: "This exhibition, created for Fascination of Plants Day, invites children to discover the hidden world of 
+  plant survival through the eyes of real scientists at Utrecht University. 
+  Using fun, relatable metaphors, the exhibition explains how plants deal with the big challenges of climate change, such as extreme heat and flooding. 
+  Visitors learn that plants aren't just sitting still, they are active survivors with amazing 'superpowers'. 
   Through interactive challenges such as holding your breath or finding a favourite vegetable, the exhibition makes plant research easy and exciting for the next generation of scientists."
 
 exhibition_button: "Go to exhibition"
@@ -26,10 +28,10 @@ exh2024_poster4_quote: "When the plant is under attack by foes, the plant calls 
 
 
 exh2026_title: "Exhibition 2026 | Honest Conversations with Scientists"
-exh2026_description: "Plants are everywhere. They feed us, sustain ecosystems, and shape the world we live in. Yet plant research tends to happen quietly behind laboratory doors, and we, the plant researchers, don’t often share it with the public. Why?
-  Does it have to do with the type of research? With the public’s perception? Or maybe it is more complex? It certainly seems to be. Moreover, the main aim of plant research is to fulfil the goal of generating knowledge. 
-  Can plant research also have other purposes?
-  Below you can see the same eight posters that you have in front of you, but in the Dutch language. 
+exh2026_description1: "Plants are everywhere. They feed us, sustain ecosystems, and shape the world we live in. Yet plant research tends to happen quietly behind laboratory doors, and we, the plant researchers, don’t often share it with the public. Why?
+  Does it have to do with the type of research? With the public’s perception? Or maybe it is more complex? It certainly seems to be. Moreover, the main aim of plant research is to fulfil the goal of generating knowledge."
+exh2026_description2: "Can plant research also have other purposes?"
+exh2026_description3: "Below you can see the same eight posters that you have in front of you, but in the Dutch language. 
   As you read through the exhibition, ponder if you share the same opinions, and don't hesitate to share your thoughts"
 exh2026_participate: "here."
 
@@ -65,24 +67,27 @@ exh_button: "See poster"
 
 
 ce_title: "Current exhibition"
-ce_intro1: |
-  The 2026 exhibition will be available from 15 May to 15 June 2026.
-  On 12 May, a closing event will take place in De Vagant at Utrecht University (see full address below).
+ce_intro1: "The 2026 exhibition will be available from 15 May to 15 June 2026."
+ce_intro2: "You can view the exhibition at the"
+ce_intro3: "Botanic Gardens of Utrecht University."
+ce_intro4: "On 12 May, a closing event will take place in De Vagant at Utrecht University (see full address below).
   The closing event brings together the ideas, questions, and perspectives explored throughout the exhibition.
-  It is a moment to reflect on how plant science connects to society, and how researchers and the public can engage more openly with each other.
-
-ce_intro2: "This event is free and open to the public. To register please participate so please feel free to join us and bring your friends and family!"
-ce_intro3: "During the event, visitors will have the opportunity to:"
+  It is a moment to reflect on how plant science connects to society, and how researchers and the public can engage more openly with each other."
+ce_intro5: "During the event, visitors will have the opportunity to:"
 
 ce_item_1: "Meet some of the researchers, and discuss the themes presented in the posters."
-ce_item_2: "Hear from Dr. Carlijn Lammers, a plant scientist at Utrecht University, 
-  about how her research on how plants shape dune landscapes in 
-  Dutch coastlines has had an impact on future policy and protection of this ecosystem."
-ce_item_3: "Participate in a dynamic session with the possibility to win some striking research images made by the researchers at UU Plants."
+ce_item_2: "Hear from"
+ce_item_3: "Dr. Carlijn Lammers"
+ce_item_4: ", a plant scientist at Utrecht University, 
+  about how her research on the role of plants in shaping dune landscapes along the Dutch coastline is informing policy and supporting
+  the protection of this ecosystem."
+ce_item_5: "Participate in a dynamic session with the possibility to win some striking research images made by the researchers at UU Plants."
+
 ce_download_flyer: "Download flyer"
 
 ce_participation_text: "This event is free. To register, please share your insights on any of the topics discussed in the posters. 
-  After registering, you will receive an invitation by email a few days before the closing event."
+  Upon registration, you will receive an invitation by email for the closing event within a few days before the closing event."
+ce_participation_text2: "This invitation will also include a pass to visit the Botanic Gardens during the closing event for free!"
 ce_participate: "Participate"
 
 ce_address_title: "Address"
