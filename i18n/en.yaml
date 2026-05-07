@@ -35,32 +35,29 @@ exh2026_description3: "Below you can see the same eight posters that you have in
   As you read through the exhibition, ponder if you share the same opinions, and don't hesitate to share your thoughts"
 exh2026_participate: "here."
 
-exh2026_poster1_title: "Growing Tomatoes Without the Plant"
-exh2026_poster1_quote: "This is our version of lab-grown meat, but for tomatoes."
+exh2026_poster1_title: "Part 1 - The student perspective"
+exh2026_poster1_quote: "I think people enjoy themselves more during science communication activities if they are more interactive."
 
-exh2026_poster2_title: "Computational Modeling of Smart Plant Decisions"
-exh2026_poster2_quote: "I want to show with my research that plants, which have no brains, can make smart decisions."
+exh2026_poster2_title: "Part 2 - Can we make plant research accessible to all publics?"
+exh2026_poster2_quote: "I like to find analogies that connect every-day things to my research to help explain it to different publics"
 
-exh2026_poster3_title: "Cellular Programming and Patterning in Plants"
-exh2026_poster3_quote: "Once we understand the programming, we will add our own programs to the code."
+exh2026_poster3_title: "Part 3 - How can science help people embrace new technologies?"
+exh2026_poster3_quote: "Sharing what’s possible from a scientific perspective and in turn hearing people’s perspective is part of science’s role in society."
 
-exh2026_poster4_title: "Strengthening Roots Against Drought and Parasites"
-exh2026_poster4_quote: "My work on witchweed-resistant sorghum can improve the lives of many farmers."
+exh2026_poster4_title: "Part 4 - Can plant research have an impact on gender imbalances?"
+exh2026_poster4_quote: "In reality, the most immediate value of research is often scientific and personal development of the researcher"
 
-exh2026_poster5_title: "The Evolution of Protective Root Barriers"
-exh2026_poster5_quote: "In principle, my research is simple to explain: plants with stronger roots are better able to withstand drought."
+exh2026_poster5_title: "Part 5 - Can researchers have an impact on student’s future careers?"
+exh2026_poster5_quote: "The biggest impact that I have had with my career is the people who I’ve trained"
 
-exh2026_poster6_title: "Plant Resilience Against Infections and Disease"
-exh2026_poster6_quote: "By presenting everything too simplistically, we risk losing those who are genuinely interested in a deeper understanding of botany."
+exh2026_poster6_title: "Part 6 - How do research and industry work together?"
+exh2026_poster6_quote: "It is important to work with companies to make sure that our knowledge eventually benefits the growers."
 
-exh2026_poster7_title: "Plant Responses to Environmental Water Stress"
-exh2026_poster7_quote: "As scientists we have a great responsibility to speak out about how important it is to invest in new technologies."
+exh2026_poster7_title: "Part 7 - Who is responsible for communicating science to the public?"
+exh2026_poster7_quote: "As scientists, we have a big responsibility to speak out about how important it is to invest in new technologies that make us less reliant on fertilizers and pesticides."
 
-exh2026_poster8_title: "Cellular Communication in Roots During Flooding"
-exh2026_poster8_quote: "I want to know what happens at the cellular level in the root during flooding... and how they communicate with each other under these conditions."
-
-exh2026_poster9_title: "The Role of Soil Microbiomes in Plant Health"
-exh2026_poster9_quote: "Just like our gut microbiome, plants have their own microbiome in the soil around the roots."
+exh2026_poster8_title: "Part 8 - The PhD perspective"
+exh2026_poster8_quote: "We should not oversimplify our research for the general public. Instead, it is about giving people the tools and the language to think with you"
 
 exh_button: "See poster"
 
@@ -77,8 +74,8 @@ ce_intro5: "During the event, visitors will have the opportunity to:"
 
 ce_item_1: "Meet some of the researchers, and discuss the themes presented in the posters."
 ce_item_2: "Hear from"
-ce_item_3: "Dr. Carlijn Lammers"
-ce_item_4: ", a plant scientist at Utrecht University, 
+ce_item_3: "Dr. Carlijn Lammers,"
+ce_item_4: "a plant scientist at Utrecht University, 
   about how her research on the role of plants in shaping dune landscapes along the Dutch coastline is informing policy and supporting
   the protection of this ecosystem."
 ce_item_5: "Participate in a dynamic session with the possibility to win some striking research images made by the researchers at UU Plants."
@@ -97,10 +94,10 @@ ce_address3: "Get directions"
 
 
 form_title: "What do you think?"
-form_intro_1: "The posters in this exhibition present ongoing research on plant biology and environmental adaptation. 
-  Each project reflects a different perspective on how plants respond to changing conditions."
-form_intro_2: "We invite you to respond with your own interpretation, reflection, or question. 
-  Your input helps create a shared space for discussion between science and public experience."
+form_intro_1: "The posters in this exhibition present the perspectives of 9 researchers 
+  (from MSc students to Professors) on science communication related to their own fields of study within plant sciences."
+form_intro_2: "We invite you to respond to the topics exposed by our researchers with your own perspective, reflection, or question. 
+  Your input helps create a shared space for discussion between the researchers' and the public's experience."
 
 form_disclaimer_1: "By submitting your email address, you agree to receive a one-time reminder about the closing event."
 form_disclaimer_2: "Your name, email, and response will only be used for this purpose. There's no need to register your real or full name, a nickname is enough."
@@ -110,3 +107,30 @@ name: "Name (or nickname)"
 email: "Email"
 answer: "Your answer"
 submit: "Submit"
+
+
+
+ack_title: "Acknowledgements"
+ack2026_title: "Exhibition 2026"
+ack2026_intro: "We would like to acknowledge and thank the time, effort, and work provided by the following people:"
+ack2026_item1_role: "Creation and coordination of the 2026 edition of Fascination of Plants."
+
+ack2026_researchers_title: "Researchers"
+ack2026_item2_role: "Translations from English to Dutch in all posters."
+ack2026_item3_role: "Website creation."
+ack2026_botanic_title: "Utrecht Science Park Botanic Gardens"
+ack2026_item4: "Everyone who visits the exposition and shares their own perspectives :)"
+
+ack2024_title: "Exhibition 2024"
+ack2024_intro: "We would like to acknowledge and thank the time, effort, and work provided by the following people:"
+ack2024_item1_role: "Organization, posters, interviews."
+ack2024_item2_role: "Organization, posters, interviews."
+ack2024_item3_role: "Posters, interviews."
+ack2024_item4_role: "Illustrations, posters."
+ack2024_researchers_title: "Researchers"
+ack2024_botanic_title: "Utrecht Science Park Botanic Gardens"
+
+
+
+contact_title: "Contact"
+contact_intro: "If you have any questions, concerns or would like to know more, please write an email to"

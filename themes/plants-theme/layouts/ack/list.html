@@ -1,10 +1,100 @@
 {{ define "main" }}
-<main class="site-content">
-<section class="under-construction">
-  <h2>Page under construction</h2>
-  <p>This page is currently being developed. Please check back later.</p>
-</section>
+<main class="site-content acknowledgements-page ack-centered">
+
+  <h1>{{ i18n "ack_title" }}</h1>
+
+  <!-- =========================
+       ACKNOWLEDGEMENTS 2026
+  ========================== -->
+  <section class="ack-section">
+
+    <h2>{{ i18n "ack2026_title" }}</h2>
+    <p class="ack-intro">{{ i18n "ack2026_intro" }}</p>
+    
+    <div class="ack-block">
+      <div class="ack-entry">
+        <strong>Mariana Vega Blanes</strong>
+        <p class="ack-role">{{ i18n "ack2026_item1_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>{{ i18n "ack2026_researchers_title" }}</strong>
+        <p class="ack-role">
+          Dorota Kawa · Kaisa Kajala · Kirsten ten Tusscher · Rashmi Sasidharan · Jason Gardiner · Dmitry Lapin · Gyöngyi Macías Honti · Julia Mars · Karl Strube · Carlijn Lammers
+        </p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>Naomi Lubeek</strong>
+        <p class="ack-role">{{ i18n "ack2026_item2_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>Fela Contreras Berecochea</strong>
+        <p class="ack-role">{{ i18n "ack2026_item3_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>{{ i18n "ack2026_botanic_title" }}</strong>
+        <p class="ack-role">
+          Maarten Reichwein · Nick Meijdam · Iris Vestergaard
+        </p>
+      </div>
+
+    </div>
+    <p class="everyone">{{ i18n "ack2026_item4" }}</p>
+  </section>
+
+  <hr>
+
+  <!-- =========================
+       ACKNOWLEDGEMENTS 2024
+  ========================== -->
+  <section class="ack-section">
+
+    <h2>{{ i18n "ack2024_title" }}</h2>
+
+    <p class="ack-intro">{{ i18n "ack2024_intro" }}</p>
+
+    <div class="ack-block">
+
+      <div class="ack-entry">
+        <strong>Rianne Kluck</strong>
+        <p class="ack-role">{{ i18n "ack2024_item1_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>Julia Mars</strong>
+        <p class="ack-role">{{ i18n "ack2024_item2_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>Alysha Somer</strong>
+        <p class="ack-role">{{ i18n "ack2024_item3_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>Mariana Vega Blanes</strong>
+        <p class="ack-role">{{ i18n "ack2024_item4_role" }}</p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>{{ i18n "ack2024_researchers_title" }}</strong>
+        <p class="ack-role">
+          Kaisa Kajala · Rashmi Sasidharan · Corné Pieterse · Guido van den Ackerveken
+        </p>
+      </div>
+
+      <div class="ack-entry">
+        <strong>{{ i18n "ack2024_botanic_title" }}</strong>
+        <p class="ack-role">
+          Maarten Reichwein · Nick Meijdam
+        </p>
+      </div>
+
+    </div>
+
+  </section>
 
 </main>
-
 {{ end }}

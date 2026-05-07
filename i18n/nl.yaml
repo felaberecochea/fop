@@ -33,32 +33,29 @@ exh2026_description3: "Hieronder zie je dezelfde acht posters die je voor je heb
   Terwijl je door de tentoonstelling gaat, kun je nadenken of je dezelfde meningen deelt en aarzel niet om je gedachten te delen"
 exh2026_participate: "hier."
 
-exh2026_poster1_title: "Tomaten kweken zonder de plant"
-exh2026_poster1_quote: "Dit is onze versie van kweekvlees, maar dan voor tomaten."
+exh2026_poster1_title: "Deel 1 - Het perspectief van de student"
+exh2026_poster1_quote: "Ik denk dat mensen meer genieten van wetenschapscommunicatieactiviteiten wanneer deze interactiever zijn."
 
-exh2026_poster2_title: "Computationele modellering van slimme plantbeslissingen"
-exh2026_poster2_quote: "Ik wil met mijn onderzoek aantonen dat planten, die geen hersenen hebben, slimme beslissingen kunnen nemen."
+exh2026_poster2_title: "Deel 2 - Kunnen we plantenonderzoek toegankelijk maken voor alle doelgroepen?"
+exh2026_poster2_quote: "Ik gebruik graag vergelijkingen tussen alledaagse dingen en mijn onderzoek om het begrijpelijk te maken voor verschillende doelgroepen."
 
-exh2026_poster3_title: "Cellulaire programmering en patroonvorming in planten"
-exh2026_poster3_quote: "Zodra we de programmering begrijpen, zullen we onze eigen programma's aan de code toevoegen."
+exh2026_poster3_title: "Deel 3 - Hoe kan wetenschap mensen helpen nieuwe technologieën te omarmen?"
+exh2026_poster3_quote: "Het delen van wat wetenschappelijk mogelijk is en tegelijkertijd luisteren naar het perspectief van mensen maakt deel uit van de rol van wetenschap in de samenleving."
 
-exh2026_poster4_title: "Wortels versterken tegen droogte en parasieten"
-exh2026_poster4_quote: "Mijn werk aan heksenkruid-resistente sorghum kan het leven van veel boeren verbeteren."
+exh2026_poster4_title: "Deel 4 - Kan plantenonderzoek bijdragen aan het verminderen van genderongelijkheid?"
+exh2026_poster4_quote: "In werkelijkheid ligt de meest directe waarde van onderzoek vaak in de wetenschappelijke en persoonlijke ontwikkeling van de onderzoeker."
 
-exh2026_poster5_title: "De evolutie van beschermende wortelbarrières"
-exh2026_poster5_quote: "In principe is mijn onderzoek eenvoudig uit te leggen: planten met sterkere wortels zijn beter bestand tegen droogte."
+exh2026_poster5_title: "Deel 5 - Kunnen onderzoekers invloed hebben op de toekomstige carrières van studenten?"
+exh2026_poster5_quote: "De grootste impact die ik in mijn carrière heb gehad, zit in de mensen die ik heb begeleid."
 
-exh2026_poster6_title: "Weerbaarheid van planten tegen infecties en ziekten"
-exh2026_poster6_quote: "Door alles te simplistisch voor te stellen, lopen we het risico degenen te verliezen die oprecht geïnteresseerd zijn in een dieper inzicht in de plantkunde."
+exh2026_poster6_title: "Deel 6 - Hoe werken onderzoek en industrie samen?"
+exh2026_poster6_quote: "Het is belangrijk om samen te werken met bedrijven zodat onze kennis uiteindelijk de telers ten goede komt."
 
-exh2026_poster7_title: "Reacties van planten op waterstress in de omgeving"
-exh2026_poster7_quote: "Als wetenschappers hebben we een grote verantwoordelijkheid om ons uit te spreken over hoe belangrijk het is om te investeren in nieuwe technologieën."
+exh2026_poster7_title: "Deel 7 - Wie is verantwoordelijk voor het communiceren van wetenschap naar het publiek?"
+exh2026_poster7_quote: "Als wetenschappers hebben we een grote verantwoordelijkheid om uit te spreken hoe belangrijk het is om te investeren in nieuwe technologieën die ons minder afhankelijk maken van kunstmest en pesticiden."
 
-exh2026_poster8_title: "Cellulaire communicatie in wortels tijdens overstromingen"
-exh2026_poster8_quote: "Ik wil graag weten wat er tijdens overstromingen op cellulair niveau in de wortel gebeurt... en hoe ze onder deze omstandigheden met elkaar communiceren."
-
-exh2026_poster9_title: "De rol van bodemmicrobiomen in de gezondheid van planten"
-exh2026_poster9_quote: "Net als ons darmmicrobioom hebben planten hun eigen microbioom in de grond rondom de wortels."
+exh2026_poster8_title: "Deel 8 - Het perspectief van promovendi"
+exh2026_poster8_quote: "We moeten ons onderzoek niet te veel vereenvoudigen voor het grote publiek. Het gaat erom mensen de middelen en taal te geven om met ons mee te denken."
 
 exh_button: "Bekijk poster"
 
@@ -72,8 +69,8 @@ ce_intro4: "Op 12 mei vindt een slot-evenement plaats in De Vagant van de Univer
 ce_intro5: "Tijdens het evenement krijgen bezoekers de kans om:"
 ce_item_1: "Onderzoekers te ontmoeten en de thema’s uit de posters te bespreken."
 ce_item_2: "Te luisteren naar"
-ce_item_3: "Dr. Carlijn Lammers"
-ce_item_4: ", een plantenwetenschapper aan de Universiteit Utrecht, over hoe haar onderzoek naar de rol van planten in de vorming van duinlandschappen langs de Nederlandse kust bijdraagt aan beleid en de bescherming van dit ecosysteem."
+ce_item_3: "Dr. Carlijn Lammers,"
+ce_item_4: "een plantenwetenschapper aan de Universiteit Utrecht, over hoe haar onderzoek naar de rol van planten in de vorming van duinlandschappen langs de Nederlandse kust bijdraagt aan beleid en de bescherming van dit ecosysteem."
 ce_item_5: "Deel te nemen aan een dynamische sessie met kans op het winnen van bijzondere onderzoeksbeelden gemaakt door onderzoekers van UU Plants."
 ce_download_flyer: "Download flyer"
 ce_participation_text: "Dit evenement is gratis. Om te registreren, deel je je inzichten over een van de onderwerpen die in de posters worden besproken. Na registratie ontvang je enkele dagen vóór het slot-evenement een uitnodiging per e-mail."
@@ -98,3 +95,31 @@ name: "Naam (bijnaam)"
 email: "E-mail"
 answer: "Jouw antwoord"
 submit: "Versturen"
+
+
+ack_title: "Dankwoord"
+
+ack2026_title: "Tentoonstelling 2026"
+ack2026_intro: "Wij willen graag de tijd, inzet en het werk van de volgende mensen erkennen en bedanken:"
+ack2026_item1_role: "Creatie en coördinatie van de editie 2026 van Fascination of Plants."
+ack2026_researchers_title: "Onderzoekers"
+ack2026_item2_role: "Vertalingen van Engels naar Nederlands voor alle posters."
+ack2026_item3_role: "Ontwikkeling van de website."
+ack2026_botanic_title: "Botanische Tuinen Utrecht Science Park"
+ack2026_item4: "Iedereen die de tentoonstelling bezoekt en zijn of haar eigen perspectieven deelt :)"
+
+
+
+ack2024_title: "Tentoonstelling 2024"
+ack2024_intro: "Wij willen graag de tijd, inzet en het werk van de volgende mensen erkennen en bedanken:"
+ack2024_item1_role: "Organisatie, posters, interviews."
+ack2024_item2_role: "Organisatie, posters, interviews."
+ack2024_item3_role: "Posters, interviews."
+ack2024_item4_role: "Illustraties, posters."
+ack2024_researchers_title: "Onderzoekers"
+ack2024_botanic_title: "Botanische Tuinen Utrecht Science Park"
+
+
+
+contact_title: "Contact"
+contact_intro: "Als je vragen hebt, bezwaren of meer wilt weten, stuur dan een e-mail naar"

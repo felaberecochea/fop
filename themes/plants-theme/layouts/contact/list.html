@@ -1,8 +1,21 @@
 {{ define "main" }}
 <main class="site-content">
-<section class="under-construction">
-  <h2>Page under construction</h2>
-  <p>This page is currently being developed. Please check back later.</p>
+  <h1>{{ i18n "contact_title" }}</h1>
+  <hr>
+
+<section class="contact-grid">
+
+  <!-- Column 1: image -->
+  <div class="contact-image">
+    <img src="{{ "img/contact.svg" | relURL }}" alt="Contact">
+  </div>
+
+  <!-- Column 2: text -->
+  <div class="contact-text">
+    <p>{{ i18n "contact_intro" }} <strong>m.vegablanes@uu.nl</strong></p>
+  </div>
+
 </section>
+
 </main>
 {{ end }}

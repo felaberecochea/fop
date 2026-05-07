@@ -39,7 +39,13 @@
             <ul>
               {{ range .Children }}
                 <li>
+                {{ if .Page }}
                   <a href="{{ .Page.RelPermalink }}">{{ .Name }}</a>
+                {{ else if .URL }}
+                  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                {{ else }}
+                  <span>{{ .Name }}</span>
+                {{ end }}
                 </li>
               {{ end }}
             </ul>
