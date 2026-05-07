@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://fopd-utrecht.nl/"
 title = "Fascination of Plants"
 theme = "plants-theme"
 
@@ -37,8 +37,8 @@ pageRef = "exhibitions/2024"
 parent = "exhibitions"
 weight = 1
 
-[[menu.main]]
-name = "Exhibition 2026"
+[[menu.main]] 
+name = "Exhibition 2026 - Current"
 pageRef = "exhibitions/2026"
 parent = "exhibitions"
 weight = 2
@@ -69,7 +69,7 @@ weight = 4
 
 [[menu.main]]
 name = "Acknowledgements"
-pageRef = "acknowledgements"
+pageRef = "ack"
 parent = "about"
 weight = 1
 
