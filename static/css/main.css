@@ -714,3 +714,26 @@ hr {
     justify-content: center;
   }
 }
+
+/* =========================
+   PETUNIAS VIDEO PAGE
+========================= */
+
+.petunias-page {
+  width: 100vw;
+  height: 100vh;
+  background: black;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+.petunias-page video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

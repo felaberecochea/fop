@@ -37,8 +37,8 @@ pageRef = "exhibitions/2024"
 parent = "exhibitions"
 weight = 1
 
-[[menu.main]]
-name = "Exhibition 2026"
+[[menu.main]] 
+name = "Exhibition 2026 - Current"
 pageRef = "exhibitions/2026"
 parent = "exhibitions"
 weight = 2
