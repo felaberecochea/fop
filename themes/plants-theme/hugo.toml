@@ -1,6 +1,8 @@
 baseURL = "https://fopd-utrecht.nl/"
 title = "Fascination of Plants"
 theme = "plants-theme"
+relativeURLs = true
+canonifyURLs = true
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
